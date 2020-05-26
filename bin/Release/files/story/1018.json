@@ -1,0 +1,28 @@
+{
+    'ID' : 1018,
+    'scenery': 'Die Lawine prallt mit voller Wucht auf den schützenden Felsen. Es dauert nicht lange bis die Schneemassen den Felsen überragen und scheinbar gierig nach dir greifen. Dank des Gesteins entsteht um dich herum Hohlraum, in den der Schnee nicht eindringen kann. Du presst dich an den Felsen und wartest, bis das Beben aufhört. Als es ruhiger wird beginnst du nach einem Ausweg zu suchen, doch wirst von einem Knacken unter dir unterbrochen. Der Boden um dich herum scheint das Gewicht der Schneemassen nicht halten zu können und beginnt zu brechen. Du versuchst dich festzuhalten, doch der Schnee, der dich umgibt bietet keinen Halt. Ungebremst stürtzt du in die Tiefe. Du hast dich schon beinahe aufegegeben, als du überraschend weich auf einem Schneeberg in einer Höhle landest.',
+    'situation': 'Es ist dunkel, nur aus einer Ecke schimmert ein schwaches Licht. Du hörst nun auch wieder die Geräusche, die zuvor die Lawine auslösten. Was tust du?',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Dem Licht folgen',
+            'followups': [
+                {
+                    'ID': 1020,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Den Geräuschen folgen',
+            'followups': [
+                {
+                    'ID': 1019,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

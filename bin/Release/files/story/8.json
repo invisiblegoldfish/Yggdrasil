@@ -1,0 +1,18 @@
+{
+    'ID' : 8,
+    'scenery': 'In bester Laune machen die Asen sich auf den Heimweg. Sie sind die schlausten, dessen sind sie sich nun sicher. Ungeduldig wartest du, während sie sich entfernen. Immer wieder denkst du, der richtige Zeitpunkt wäre gekommen, doch dann dreht sich noch einmal einer von ihnen um und lacht dich aus. Dann kannst du es nicht mehr aushalten. Du springst auf, sprengst die Fesseln und rennst ihnen nach. Es dauert ein paar Sekunden, bis sie dich bemerken. Dann herrscht Chaos. Asen rennen auf dich zu, andere laufen weg. "Nicht stark genug?", brüllst du, während du nach ihnen schnappst. Jemand schlägt mit einer Axt nach dir, doch du weichst aus. Du willst Odin erreichen. Odin, dessen Idee es war, dich zu fesseln, Odin, der dir deine Freiheit nehmen wollte. Zwei starke Hände packen dich und fordern deine Aufmerksamkeit. Hasserfüllt wendest du dich Tyr zu, der dich festhält. "Ich warne dich", knurrst du, doch er lässt nicht los. Stattdessen blickt er auf einen Punkt hinter dir. Du hörst die Klinge durch die Luft fahren, versuchst auszuweichen. Doch Tyrs Griff ist zu fest. Du spürst den Schlag, riechst das Blut, schmeckst es. Das letzte, was du siehst, ist Tyr, der über dir steht, die Hände voll mit deinem Blut.',
+    'situation': '',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

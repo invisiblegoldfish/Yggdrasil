@@ -1,0 +1,23 @@
+{
+    'ID' : 106,
+    'scenery': 'Du läufst weiter, wenn auch schon deutlich unsicherer als zuvor. Aber scheinbar war dein Instinkt richtig, denn dieses Mal bist du dir sicher, dass das Plätschern lauter wird. Du beschleunigst deine Schritte und tatsächlich, schon nach wenigen Minuten kommst du an einen kleinen Bach. Er schlängelt sich zwischen den Wurzeln entlang, mal gut sichtbar und einfach zu verfolgen, mal so gut versteckt, dass du ihn beinahe verlierst. Mehrfach fürchtest du, dich verirrt zu haben und die Quelle nie zu finden, aber zuletzt erreichst du einen Steinhaufen, der bei genauerem Hinsehen nicht aussieht, als wäre er natürlich entstanden.',
+    'situation': 'Mit langsamen Schritten trittst du näher. Du bist gespannt, was du finden wirst, gleichzeitig aber auch vorsichtig.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'In den Brunnen schauen',
+            'followups': [
+                {
+                    'ID': 116,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 80, 0, 0]
+                },
+                {
+                    'ID': 117,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

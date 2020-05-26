@@ -1,0 +1,23 @@
+{
+    'ID' : 1001,
+    'scenery': 'Du und deine Mutter befindet euch im Privatjet deines Vaters. Ihr seid auf dem Rückweg zu eurem Anwesen. Es ist Herbst und draußen tobt ein starkes Gewitter. Die Turbulenzen, die durch die Windgeschwindigkeiten entstehen machen dir jedoch nichts aus, du bist schon oft mit diesem Jet geflogen und rucklige Flüge sind nichts neues für dich. Wie immer sind sie jedoch furchtbar langweilig und du beginnst dich umzusehen. Als dein Blick über die Sitze aus Echtleder und Mutters Sektglas schweift, nimmst du im Augenwinkel ein Leuchten wahr. Als dein Blick schließlich auf das Fenster fällt, brauchst du eine Weile, bis du durch das starke Gewitter erkennen kannst, dass das Leuchten von der in Flammen aufgegangenen Turbine des Jets kommt.',
+    'situation': 'Du bist zwar noch jung, verstehst aber dennoch, dass die brennende Turbine eine große Gefahr darstellt. Was tust du?',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Mutter warnen.',
+            'followups': [
+                {
+                    'ID': 1002,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+					'ID': 1004,
+                    'probability': 0.1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+				}
+            ]
+        }
+    ]
+}

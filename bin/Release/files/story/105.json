@@ -1,0 +1,18 @@
+{
+    'ID' : 105,
+    'scenery': 'Deutlich entmutigt trottest du weiter. Das Geräusch des Wassers in der Ferne klingt immer verlockender, nicht nur das Wissen, welches Mimirs Brunnen verspricht, reizt dich, vor allem möchtest du etwas trinken. Du bist durstig und dein Hals fühlt sich trocken an. Woher kommt das Plätschern? Je mehr du versuchst, darauf zu horchen, desto weniger kannst du es hören. Liegt es daran, dass deine Schritte zu laut sind? Du bleibst stehen. Nein, das macht keinen Unterschied. Aber wo kann das Wasser sein? Wasser. Der Gedanke daran ist schmerzlich, so durstig du. Unter Mühe schleppst du dich weiter in die Richtung, wo du eben noch den Brunnen vermutet hast. Mittlerweile kannst du kein Plätschern mehr hören. Überhaupt nimmst du kaum noch etwas wahr, andauernd stolperst du über Wurzeln und strauchelst. Schließlich fällst du hin. Du versuchst aufzustehen, aber dir fehlt die Kraft. Wenn nur dieses fürchterliche Brennen in deiner Kehle nicht wäre! Vielleicht ist es am besten, wenn du einfach liegen bleibst...',
+    'situation': '',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

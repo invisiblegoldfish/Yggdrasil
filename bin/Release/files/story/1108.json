@@ -1,0 +1,43 @@
+{
+    'ID' : 1108,
+    'scenery': 'Du begibst dich in Richtung der Seen, der Weg führt dich hinunter in ein Tal. Es dauert nicht lang bis du bei den Gewässern ankommst, vorsichtig gehst du zum Ufer und beugst dich hinüber. Das Wasser ist trübe und grau. Du kannst keine Spur von Leben erkennen, keine Pflanze und kein Fisch scheinen hier zu Leben. Du beschließt, dass es hier nichts von deinem Interesse gäbe und setzt deinen Weg fort. Nach einiger Zeit jedoch wirkt das Wasser immer interessanter, die Seen scheinen nach dir zu rufen.',
+    'situation': 'Das Wasser zieht dich magisch an, du möchtest seinem Ruf folgen. Du bist durstig, vielleicht kannst du etwas trinken. "Von einem ruhigen und unbelebtem Gewässer kann keine Gefahr drohen", denkst du. Wie wirst du dich entscheiden?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Ins Wasser gehen.',
+            'followups': [
+                {
+                    'ID': 1110,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1111,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		{
+            'text': 'Das Wasser trinken.',
+            'followups': [
+                {
+                    'ID': 1112,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Weitergehen.',
+            'followups': [
+                {
+                    'ID': 1113,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

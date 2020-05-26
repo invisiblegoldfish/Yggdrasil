@@ -1,0 +1,18 @@
+{
+    'ID' : 1122,
+    'scenery': 'Du wartest bis Hel ganz nah bei dir ist, und grade als sie dir scheinbar etwas sagen möchte holst du mit letzter Kraft zu deinem letzten Schlag aus. Hel ist schtbar überrascht, dein Schlag trifft, doch er ist viel zu schwach, um sie ernsthaft zu verletzten. Hel weicht zunächst einige Schritte zurück, doch hat sie sich schnell erholt. Nun zornig wie nie stürmt sie auf dich zu und mit den Worten "Ich verbanne dich aus der Welt der Toten, doch werde ich dir auch dein Leben nicht schnenken!" tötet Hel dich mit einem einzigen Schlag. Deine Seele streift nun durch die Welten, ohne Ruhe und für immer verdammt...',
+    'situation': '',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

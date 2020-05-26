@@ -1,0 +1,18 @@
+{
+    'ID' : 1007,
+    'scenery': 'Du drehst dem Büro deines Vaters den Rücken zu. Den Schlüssel verstaust du sicher in einer versteckten Truhe in deinem Schlafzimmer. Du fässt den Beschluss das Büro nie wieder zu betreten und mit der Zeit verschwindet nicht nur die Truhe mit dem Schlüssel aus deinen Gedanken, auch das Verschwinden deiner Mutter und der Tod deines Vaters beschäftigen dich immer weniger. Wenige Jahre später wirst du eine erfolgreiche Archäologen, und leistet Beiträge zu den berühmtesten Museen in ganz Europa. Du lebst ein ruhiges und glückliches Leben, bis du im Alter langsam schwächer wirst. Auf dem Sterbebett denkst du wieder an deine Eltern und bereust in deinem letzten Atemzug, dass du nie nach deiner Mutter gesucht hast.',
+    'situation': '',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

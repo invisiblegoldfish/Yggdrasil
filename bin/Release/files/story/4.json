@@ -1,0 +1,18 @@
+{
+    'ID' : 4,
+    'scenery': 'Deine Fänge schließen sich um Tyrs Arm und trennen die Hand ab. Er stolpert zurück. Für einen Moment fühlst du Genugtuung, doch deine Lage hat sich nicht verändert. Die Asen ziehen sich zurück und lassen dich alleine. Einsam und angekettet bleibst du zurück. Es soll Ewigkeiten dauern, bis du endlich wieder frei bist. Doch der Tag kommt. Du spürst neue Kraft oder vielleicht ist auch das Seil mit der Zeit schwächer geworden. Es spielt keine Rolle. Du reißt dich los. Nach so langer Zeit hattest du schon beinahe vergessen, wie es sich anfühlt, zu rennen. Ohne einen Blick zurück preschst du davon.',
+    'situation': 'Odin hat dir das angetan und nun, endlich, kannst du dich wieder frei bewegen. Was tust du?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Dich an Odin rächen',
+            'followups': [
+                {
+                    'ID': 5,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

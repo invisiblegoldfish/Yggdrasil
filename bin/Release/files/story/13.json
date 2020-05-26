@@ -1,0 +1,18 @@
+{
+    'ID' : 13,
+    'scenery': 'Mit zwei großen Sätzen bist du dort, wo du das Eichhörnchen gesehen hast, doch es ist fort. Verwirrt blickst du dich um, als du ein Kichern vernimmst. Du drehst dich um und entdeckst erneut das Eichhörnchen, weit über dir. Der Baum, in dem es sitzt, ist größer als jeder Baum, den du je gesehen hast, höher noch als die höchsten Berge. Während dein Blick nach oben wandert, wächst in dir das Bedürfnis, diesen Baum zu erkunden, und fast ohne es zu bemerken bewegst du dich darauf zu.',
+    'situation': 'Zunächst befürchtest du, das Klettern könnte schwierig werden, aber der Baum ist so riesig, die Rinde so grob, dass du dich ohne Probleme am Stamm entlang bewegen kannst.',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Den Baum erkunden',
+            'followups': [
+                {
+                    'ID': 100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

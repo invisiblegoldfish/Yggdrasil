@@ -1,0 +1,18 @@
+{
+    'ID' : 1102,
+    'scenery': 'Garm starrt dich mit finsterem Blick an, doch bewegt sich nicht. Du stürmst auf ihn zu und holst zu deinem Schlag aus. Du konntest Garm zwar mit deiner Angriffslust überraschen, doch deine Kraft reicht nicht um ihm ernsthaft zu schaden. Er schnappt nach deinem Bein und bohrt seine scharfen Reiszähne hinein. Du kannst dich befreien doch verlierst eine Menge Blut. Der Geruch des Blutes und dein Angriff haben Garms Instinkte geweckt. Wutendbrannt stürmt er auf dich zu, du willst ausweichen doch dein verletztes Bein erlaubt es dir nicht. Du gehst zu Boden und siehst deinem Ende entgegen als Garm mit einem letzten Satz auf dich zuspringt...',
+    'situation': '',
+    'area': 62,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

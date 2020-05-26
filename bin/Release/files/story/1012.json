@@ -1,0 +1,18 @@
+{
+    'ID' : 1012,
+    'scenery': 'Das Boot sinkt immer weiter, das Hek ist nun schon komplett unter Wasser. Du versuchst dich zu retten doch der Sog ist zu stark. Verzweifelt versuchst du dich an Felsen und herumschwimmenden Brettern festzuhalten, doch nirgends findest du halt. Du wirst unter Wasser gezogen und die Wasseroberfläche entfernt sich immer weiter aus deinem Sichtfeld. Panisch versuchst du nach den letzten Strahlen der Sonne zu greifen, die sich durch die aufbrechenden Wolken und das Wasser schlängeln, wohlwissend, dass sie dich nicht retten können. Deine Luft wird knapp und der Druck immer größer, du kannst die Luft nicht länger anhalten und alles um dich herum wird schwarz...',
+    'situation': '',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    'ID' : 1116,
+    'scenery': 'Zwischen den Felsen kannst du dich besser vor lauernden Gefahren schützen, denkst du und begibst dich in Richtung der Steinwüste. Sie wird ihrem Namen gerecht, denn außer einigen riesigen Felsen und Geröll gibt es hier nichts zu sehen. Du wanderst einige Zeit umher, bis du einen Felsen bemerkst von dem du schwören könntest du hättest ihn schon einmal gesehen.',
+    'situation': 'Du bist verwirrt und fürchtest dich verlaufen zu haben. Nirgends kannst du einen Ausweg aus der Steinhölle entdecken, dir bleiben nicht viele Möglichkeiten. Wirst du umkehren und versuchen dorthin zu gehen, wo du her gekommen bist?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Umkehren.',
+            'followups': [
+                {
+                    'ID': 1131,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1132,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Weiter geradeaus gehen.',
+            'followups': [
+                {
+                    'ID': 1131,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1132,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

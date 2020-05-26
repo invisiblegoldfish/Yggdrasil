@@ -1,0 +1,18 @@
+{
+    'ID' : 1120,
+    'scenery': 'Geduldig wartest du auf das Urteil Hels. Sie kennt deine Lage und sieht deine Verzweiflung. Nun musst du auf Hels Mitgefühl hoffen, doch sie ist die Herrin der Toten. Entegen all deiner Hoffnung holt Hel zu einem Schlag aus und raubt dir mit ihrer Kraft deine Seele. "So wie alle anderen, die dieses Reich betreten wirst du von nun an hier bleiben", sagt Hel.',
+    'situation': 'Energielos sinkst du zu Boden und verlierst das Bewusstsein. Als du wieder zu dir kommst findest du dich im Wald wieder, zwischen vielen anderen deinesgleichen. Jene, von denen du gerade eben noch die seltsamen Geräusche vernommen hattest...',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

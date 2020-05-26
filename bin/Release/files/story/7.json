@@ -1,0 +1,33 @@
+{
+    'ID' : 7,
+    'scenery': 'Unter den Blicken der Asen beginnst du gegen die Fesseln anzukämpfen, stets darauf bedacht, sie nicht wirklich zu zerstören. Je verzweifelter du dabei wirkst, desto näher rücken die Asen. Immer häufiger erwischst du einen von ihnen dabei, wie er versucht nicht zu grinsen. Doch du bleibst bei deinem Entschluss, du wirst sie in die Irre führen. Als du dir sicher bist, dass dein Schauspiel sie überzeugt hat, hörst du schließlich auf zu kämpfen. Außer Atem stehst du vor ihnen. "Bindet mich los", verlangst du. Doch nun brechen sie alle gemeinsam in Gelächter aus. "Du hast doch nicht wirklich gedacht, wir würden dich wieder gehen lassen? Du magst stark sein, aber nicht so stark, wie du dachtest. Und wir waren schlau genug, dich hereinzulegen."',
+    'situation': 'Du lagst richtig, es war wirklich eine Falle. Als die Asen sich zum Gehen wenden, überlegst du. Was sollst du tun?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Rache nehmen',
+            'followups': [
+                {
+                    'ID': 8,
+                    'probability': 0.5,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 9,
+                    'probability': 0.5,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Sie ziehen lassen',
+            'followups': [
+                {
+                    'ID': 10,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

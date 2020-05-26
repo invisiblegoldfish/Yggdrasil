@@ -1,0 +1,18 @@
+{
+    'ID' : 1103,
+    'scenery': 'Für einen kurzen Augenblick bleibt es ruhig, weder du noch das Wesen geben einen Laut von sich. Doch gerade als du endlich einen Laut aus dir heraus bekommst macht Garm einen riesigen Satz auf dich zu. Du wusstest Garm kann man nicht trauen und warst auf einen plötzlichen Angriff vorbereitet. Geschickt weichst du seinen Pranken aus und konterst seinen Angriff. Garm, der dich mit voller Kraft versuchte umzureißen springt ins leere und ist für einen Augenblick schutzlos. Du nutzt den Moment und kannst ihn mit einem Hieb in den Rücken betäuben.',
+    'situation': 'Garm ist regungslos, du hast ihn besiegt und das Tor zur Unterwelt steht dir offen. Wirst du es wagen durch das Tor zu gehen?',
+    'area': 62,
+    'decisions': [
+        {
+            'text': 'Das Reich der Toten betreten.',
+            'followups': [
+                {
+                    'ID': 1106,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

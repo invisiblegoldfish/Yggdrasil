@@ -1,0 +1,38 @@
+{
+    'ID' : 101,
+    'scenery': 'Gespannt beginnst du deinen Abstieg zu den Wurzeln. Eine leichte Brise raschelt durch die Blätter, an einigen Stellen fällt sogar ein vereinzelter Sonnenstrahl durchs dichte Laub. Deine Schritte sind unbeschwert, du genießt den Weg. Langsam beginnt deine Umgebung sich zu verändern, es wird dunkler und auch kälter, die Sonne wirkt unvorstellbar weit entfernt. Du hörst ein Brüllen und für einen Augenblick meinst du, ein großes Wesen zu sehen – einen Drachen? –, dann ist es verschwunden. Immer weiter steigst du hinab.',
+    'situation': 'Schließlich bist du ganz unten angelangt und musst entscheiden, wohin du gehen möchtest.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Nach Jötunheim',
+            'followups': [
+                {
+                    'ID': 5000,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Zwischen den Wurzeln entlang',
+            'followups': [
+                {
+                    'ID': 102,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Nach Helheim',
+            'followups': [
+                {
+                    'ID': 1100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

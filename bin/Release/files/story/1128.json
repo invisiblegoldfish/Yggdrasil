@@ -1,0 +1,28 @@
+{
+    'ID' : 1128,
+    'scenery': 'Du entscheidest, dass das Risiko zu groß ist. Egal was diese Wesen einmal waren, jetzt sind sie seelenlos und Diener Hels, der Herrin Helheims. Leisen Fußes schleichst du dich in einem großen Bogen an ihnen vorbei. Ihre Sinne scheinen getrübt, vielleicht gar entschwunden. Keiner der Toten hat dich bemerkt und du kannst deinen Weg unbeschwert fortsetzen. Nach einer ganzen Weile sturen geradeaus laufens trifft dich was du siehst, wie ein Schlag. Erneut stehst du vor der Treppe, die du anfangs entdeckt hattest. Und zu deiner Verwunderung kannst du in der Ferne die Steinwüste erkennen, die du in der Seenlandschaft umgangen bist.',
+    'situation': 'Der Wald scheint dich im Kreis zu führen, du musst einen Ausweg finden. Welchen Weg wirst du einschlagen?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Die Treppe hinunter.',
+            'followups': [
+                {
+                    'ID': 1114,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Zur Steinwüste.',
+            'followups': [
+                {
+                    'ID': 1116,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

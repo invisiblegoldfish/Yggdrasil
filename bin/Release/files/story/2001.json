@@ -1,0 +1,18 @@
+{
+    'ID' : 2001,
+    'scenery': 'In der Ferne hörst du ein Horn. Du weißt sofort, dass es soweit ist. Das Gjallerhorn wurde geblasen. Ragnarök beginnt. Du schulterst deine gefürchtete Waffe, das flammende Schwert, und machst dich auf den Weg. Lange genug hast du auf diesen Moment gewartet. Die Zeiten haben deinen Zorn geschürt. Nichts kann dich nun stoppen. Gemeinsam mit den Söhnen Muspells reitest du durch den Himmel zur Ebene Wigrid.',
+    'situation': 'In der Ferne hörst du die Schlacht toben.',
+    'area': 71,
+    'decisions': [
+        {
+            'text': 'In die Schlacht stürzen',
+            'followups': [
+                {
+                    'ID': 2002,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

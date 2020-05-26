@@ -1,0 +1,33 @@
+{
+    'ID' : 1115,
+    'scenery': 'Du entschließt dich die Quelle der Geräusche zu suchen. Sie führen dich immer tiefer in den Wald, und die Geräusche, die nun schon fast wie Stimmen klingen werden immer lauter. Plötzlich triffst du auf eine Gruppe von "Geschöpfen", wie du sie in deinen Gedanken bezeichnest. Es scheinen einige Bewohner Helheims zu sein, und somit sind es nichts weiter als Tote. Seelenlose Hüllen die in dieser Welt herumwandern.',
+    'situation': 'Du fragst dich, ob sie noch einen Funken lebendiges in sich tragen. Du könntest versuchen mit ihnen zu sprechen, vielleicht sind sie gewöhnliche Wesen, wie du. Wirst du dich ihnen nähern?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Ja, mit ihnen sprechen.',
+            'followups': [
+                {
+                    'ID': 1127,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1126,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Nein, vorbei schleichen.',
+            'followups': [
+                {
+                    'ID': 1128,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

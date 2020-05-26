@@ -1,0 +1,28 @@
+{
+    'ID' : 1006,
+    'scenery': 'Du fasst den Entschluss den Vermutungen deines Vaters nachzugehen, in der Hoffnung, dass du am Ende deiner Reise wieder deiner Mutter gegenüberstehen kannst. Du stürmst in das Büro deines Vaters und siehst dir die notierten Koordinaten genauer an. Sie führen dich in den Norden des eisigen Grönlands. Nur mit einem Rucksack gefüllt mit Proviant, warmer Kleidung und einer versteckten Pistole begibst du dich auf deine Reise.',
+    'situation': 'Der Weg nach Grönland ist lang und beschwerlich, mit welchem Gefährt wirst du reisen?',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Mit dem Flugzeug',
+            'followups': [
+                {
+                    'ID': 1009,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Mit dem Boot',
+            'followups': [
+                {
+                    'ID': 1011,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

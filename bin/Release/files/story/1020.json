@@ -1,0 +1,28 @@
+{
+    'ID' : 1020,
+    'scenery': 'Vorsichtig näherst du dich dem Licht. Es scheint durch einen schmalen Spalt, durch welchen du dich quetschen kannst. Du gelangst in einen Raum, der dir sehr bekannt vorkommt. Du kannst jedoch nicht sofort zuordnen, wo du das darin befindliche Konstrukt schon einmal gesehen hast. Einige große Felsen erstrecken sich in der Mitte des Raumes, sie scheinen einen Kreis zu bilden. Du trittst näher und kannst den Drang den Raum zu untersuchen nicht unterdrücken. Als du einen der Felsen berührst erstrahlt der ganze Raum in hellem violetten Licht. Nun erinnerst du dich, es ist der selbe Steinkreis, das selbe Portal in dem deine Mutter vor Jahren verschwand. Doch diesmal ist es nicht sie die sich in die Mitte des Kreises begibt, sondern du. Das Licht wird immer heller und schließlich verlierst du das Bewusstsein.',
+    'situation': 'Du wachst in eisiger Kälte wieder auf. Es liegt Schnee und weit oben leuchtet ein seltsames, bläuliches Licht. Was wirst du nun unternehmen?',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Dich umsehen',
+            'followups': [
+                {
+                    'ID': 1100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Einen Ausweg suchen',
+            'followups': [
+                {
+                    'ID': 1100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

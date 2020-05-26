@@ -1,0 +1,18 @@
+{
+    'ID' : 1017,
+    'scenery': 'Eilig erklimmst du den Baum und erreichst noch rechtzeitig seine Spitze. Du blickst hinab und bereitest dich auf den Aufprall der Schneemassen vor. Der Baum erbebt, als die Lawine auf ihn trifft und mit all deiner Kraft krallst du dich in seine Rinde. Mit Erschrecken stellst du fest, dass die Lawine den Baum immer mehr nach unten zu drücken scheint. Deine Zehenspitzen streifen schon fast den reißenden Schneefluss. Du ahnst, dass dieser Baum nicht mehr lange standhalten kann, doch die bleibt keine andere Möglichkeit als zu hoffen. ',
+    'situation': 'Der Stamm hält lange, doch letztendlich ringen ihn die Schneemassen nieder und du wirst von der Lawine mitgerissen. Die Kräfte sind enorm und dein Körper kann ihnen nicht standhalten...',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

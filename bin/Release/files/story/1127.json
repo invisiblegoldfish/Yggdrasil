@@ -1,0 +1,38 @@
+{
+    'ID' : 1127,
+    'scenery': 'Du traust dich näher an die Toten heran. Vorsichtig gehst du Schritt für Schritt auf sie zu. Sie haben dich noch nicht bemerkt und du bist nah genug, um sie genauer zu betrachten. Du beschließt, dass sie keine Gefahr darstellen und trittst aus deiner Deckung. Sofort dreht sich die Gruppe zu dir und bewegt sich schnellen Schrittes auf dich zu. Auf deine Versuche Kontakt aufzunehmen reagiert keiner von ihnen, stattdessen strecken sie dir bedrohlich die Arme entegegen, während sie dir immer weiter entegenkommen.',
+    'situation': 'Du kannst nicht genau einschätzen ob die Gruppe neugierig ist oder dir gegenüber feindseelig. Sie sind langsam und ihre Sinne getrübt, du könntest sie besiegn, wenn du zuerst angreifst. Was tust du?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Abwarten was sie tun.',
+            'followups': [
+                {
+                    'ID': 1129,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1130,
+                    'probability': 0.2,
+                    'conditions': [10, 35, 10, 60, 0, 10, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Angreifen.',
+            'followups': [
+                {
+                    'ID': 1129,
+                    'probability': 0.1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1130,
+                    'probability': 0.8,
+                    'conditions': [10, 35, 10, 60, 0, 10, 0, 0]
+                }
+            ]
+        }
+    ]
+}

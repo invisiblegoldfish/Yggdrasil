@@ -1,0 +1,33 @@
+{
+    'ID' : 1015,
+    'scenery': 'Du nimmst deinen Mut und deine Kraft zusammen und beginnst den Aufstieg. Der Weg ist beschwerlich, mühsam musst du dich durch den Schnee kämpfen und die immer wiederkommenden eiskalten Winde überstehen. Bereits am Fuße des Berges vernahmst du eine Art Heulen, es verfolgte dich den ganzen Weg hinauf. Es muss der Wind gewesen sein, denkst du grade in dem Moment als das Heulen in ein lautes Knurren, fast schon Brüllen übergeht. Du würdest den Geräuschen gerne nachgehen, doch kaum hast du sie vernommen siehst du die Lawine, die durch die Geräusche ausgelöst wurde. Der Berg bebt und du kannst dich gerade noch an einem der wenigen Bäume um dich herum festhalten, um einen Sturz zu vermeiden.',
+    'situation': 'Die Schneemassen rollen unaufhaltsam auf dich zu. Unweit von dir steht ein großer Felsen, hinter dem du Schutz vor der Lawine suchen kannst. Auch der Baum, an den du dich krallst ist hoch genug, um den Schneemassen zu entgehen. Wo wirst du Schutz suchen?',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Hinter dem Felsen',
+            'followups': [
+                {
+                    'ID': 1018,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1016,
+                    'probability': 0.1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Auf dem Baum',
+            'followups': [
+				{
+                    'ID': 1017,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    'ID' : 114,
+    'scenery': '“Schickt dich Nidhöggr?”, krächzt der Rabe, sobald du in Hörweite bist. Auf dein verwirrtes Kopfschütteln hin fährt er fort: “Dann ist es sicher Ratatöskr. Manchmal frage ich mich, ob dieses schreckliche Eichhörnchen nicht vielleicht schlimmer ist als der Drache selbst.” Er schweigt, während er über seine Worte nachzudenken scheint. Dann schaut er dich an, offenbar überrascht, dass du noch immer da bist. “Was war noch gleich dein Anliegen? Hast du eine Nachricht für mich?” Erneut schüttelst du den Kopf. “Schade. Oder vielleicht gut. Alle Nachrichten, die ich erhalte, sind Frechheiten des Drachen. Wenn du ihn siehst, könntest du ihm ausrichten, dass er mich gefälligst in Ruhe lassen soll?”',
+    'situation': 'Wieder schaut der Adler in die Ferne und scheint dich zu vergessen, also beschließt du weiterzuziehen.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Weiter',
+            'followups': [
+                {
+                    'ID': 14,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 4012,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 3018,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 115,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

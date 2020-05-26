@@ -1,0 +1,18 @@
+{
+    'ID' : 1124,
+    'scenery': 'Zügig begibst du dich wieder nach draußen. Hinaus aus der Kammer, die Treppe hinauf zurück in den Wald. Ganz Helheim bebt, die Toten schreien und die Seen scheinen nun lebendig. Du verfällst in Panik, bei all dem Chaos weißt du nicht was  zu tun ist, doch als hättest du gerufen legt plötzlich jemand seine Hand auf deine Schulter. Du drehst dich um und blickst in das Gesicht deiner Mutter.',
+    'situation': 'Sie beruhigt dich, du kannst nun klar denken und realisierst erst jetzt, dass du sie endlich gefunden hast. Gemeinsam kehrt ihr zurück zum Tore Helheims, welches euch letztendlich wieder in eure Heimat Midgard bringt...',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

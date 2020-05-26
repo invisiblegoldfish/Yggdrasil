@@ -1,0 +1,38 @@
+{
+    'ID' : 1,
+    'scenery': 'Du steht in einem großen "Wald". *tolle Beschreibung vom Wald*',
+    'situation': 'Auf dem Weg liegt ein schlafender Oger. was tust du?',
+    'area': 0,
+    'decisions': [
+        {
+            'text': 'Jötunheim erkunden',
+            'followups': [
+                {
+                    'ID': 5000,
+                    'probability': 0.6,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 3,
+                    'probability': 0.4,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Den Oger erschlagen',
+            'followups': [
+                {
+                    'ID': 2,
+                    'probability': 0.1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 3,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

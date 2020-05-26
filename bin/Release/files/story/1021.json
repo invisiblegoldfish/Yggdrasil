@@ -1,0 +1,22 @@
+{
+    'ID' : 1021,
+    'scenery': 'Als du die Augen wieder öffnest liegst du auf kaltem Boden, das Erste was du erkennen kannst sind die smaragdgrünen Augen deiner Mutter. Sie hat dich wach gerüttelt und hilft dir beim Aufstehen. Als du wieder auf den Beinen bist und deine Mutter dich in die Arme schließt, entdeckst du eine seltsam aussehende Ruine mit 5 im Kreis stehenden Steinbrocken. Du trittst näher und erkennst, dass auf einigen von ihnen Symbole zu erkennen sind. Du erinnerst dich an die Runen, die dein Vater dir gezeigt hat, als du dich kürzlich mal wieder in sein Büro geschlichen hattest. Er sagte so etwas wie "nördlich" oder war es nordisch?',
+    'situation': 'Die Runen und der Steinkreis sehen interessant aus. Siehst du ihn dir genauer an?',
+    'area': 0,
+    'decisions': [
+        {
+            'text': 'Ja, die Runen ansehen.',
+            'followups': [
+                {
+                    'ID': 1003,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+ 

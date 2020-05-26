@@ -1,0 +1,18 @@
+{
+    'ID' : 1105,
+    'scenery': '"Du bist Garm, der Wächter der Unterwelt. Habe ich recht?", sagst du mit tapferer Stimme. Du bist nicht sicher ob dich das Wesen verstehen kann, doch plötzlich hebt Garm seinen Kopf: "So ist es, du bist kein Toter, ich spühre eine Seele in dir. Was willst du hier?". Seine Stimme klingt tief und bedrohlich, du spührst einen kalten Schauer, der seine raue Stimme begleitet. Du versuchst ihn mit deiner Ehrlichkeit zu überzeugen, sagst du wolltest nach Helheim und erklärst ihm was dich in die dunkle und kalte Welt der Toten treibt. Und tatsächlich, kritisch sieht Garm dich an doch er glaubt dir. Er senkt den Kopf und lässt dich passieren.',
+    'situation': 'Das Tor zur Welt der Toten steht dir nun offen, was wirst du tun?',
+    'area': 62,
+    'decisions': [
+        {
+            'text': 'Das Reich der Toten betreten.',
+            'followups': [
+                {
+                    'ID': 1106,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

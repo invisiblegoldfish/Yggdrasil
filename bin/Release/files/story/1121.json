@@ -1,0 +1,28 @@
+{
+    'ID' : 1121,
+    'scenery': 'Voller Mut stehst du Hel nun gegenüber. Du kennst deine Taktik und bist dir nun sicher, sie besiegen zu können. Immer wieder kannst du Hels angriffen widerstehen, doch selbst schaffst du es auch nicht ihr zu schaden. Hel brennt vor Wut und ruft sich schließlich die Bewohner Helheims zur Hilfe: die Toten erscheinen in Massen vor dir. Du schaffst es nicht sie alle zu besiegen, doch als du geschwächt zu Boden sinkst zieht Hel ihr Gefolge zurück.',
+    'situation': 'Sie kommt auf dich zu, glaubt vermutlich du bist wehrlos. Doch ein wenig Kraft ist dir überig geblieben, du kannst den Moment nutzen und zu einem letzten Schlag ausholen. Wirst du das Risiko eingehen?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Angreifen.',
+            'followups': [
+                {
+                    'ID': 1122,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Nichts tun.',
+            'followups': [
+                {
+                    'ID': 1120,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

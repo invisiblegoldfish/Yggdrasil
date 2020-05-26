@@ -1,0 +1,18 @@
+{
+    'ID' : 109,
+    'scenery': 'Beim Anblick des Drachens bekommst du Zweifel, zu gefährlich erscheint dir auf einmal die Situation. Noch wurdest du nicht gesehen und so entscheidest du umzukehren. Ohne das Untier aus den Augen zu lassen, tastest du dich vorsichtig in Richtung des Stammes vor. Doch je länger du es beobachtest, desto sicherer wirst du dir, dass es dich auch so nicht bemerkt hätte, dafür ist es viel zu beschäftigt. In einem fort scheint es an der Wurzel vor sich zu nagen, wozu vermagst du nicht zu sagen. Überall sind die Spuren der Zähne zu sehen, große scharfe Zähne, wie dir auffällt.',
+    'situation': 'Endlich hast du eine Wurzel erreicht, hinter der du verschwinden kannst, um unbemerkt wieder hinaufzuklettern. Ein letztes Mal schaust du zurück.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Hochklettern',
+            'followups': [
+                {
+                    'ID': 112,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

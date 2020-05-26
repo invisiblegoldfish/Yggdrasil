@@ -1,0 +1,38 @@
+{
+    'ID' : 107,
+    'scenery': 'Die Wurzel erstreckt sich viele Meter hinauf, aber als du auch ihr entlang läufst, bemerkst du einen Zwischenraum darunter. Noch ein Stück weiter wird er größer, bis du schließlich meinst, dich darunter hindurchzwängen zu können. Vorsichtig lässt du dich hinab. Tatsächlich ist hier noch mehr Platz als du erwartet hattest, die Wurzeln lichten sich und du kommst leichter voran als gerade eben. Eiligen Schrittes gehst du weiter. Auf einmal huscht ein Eichhörnchen an dir vorbei, was dir auf merkwürdige Weise bekannt vorkommt. Irgendetwas scheint es zu belustigen, es kichert in einem fort vor sich hin. Du schaust ihm noch hinterher, da ertönt ein lautes Geräusch.',
+    'situation': 'Schnell drehst du dich hin und erblickt ein riesiges Ungeheuer. Was machst du?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Umkehren',
+            'followups': [
+                {
+                    'ID': 109,
+                    'probability': 1,
+                    'conditions': [30, 0, 0, 0, 0, 20, 0, 0]
+                },
+                {
+                    'ID': 111,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Hingehen',
+            'followups': [
+                {
+                    'ID': 110,
+                    'probability': 1,
+                    'conditions': [30, 0, 0, 0, 0, 20, 0, 0]
+                },
+                {
+                    'ID': 109,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

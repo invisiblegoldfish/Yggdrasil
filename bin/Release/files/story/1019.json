@@ -1,0 +1,18 @@
+{
+    'ID' : 1019,
+    'scenery': 'Vorsichtig bewegst du dich in Richtung des Heulens und Knurrens. Es führt dich tiefer in die Höhle hinein, weiter ins Dunkle. Du vertraust auf deine Ohren und bemerkst, wie die Geräusche Schritt um Schritt immer lauter werden. Nach einigen Metern scheint ein sanftes Licht in der Ferne, du folgst ihm und stehst plötzlich in einem riesigen Hohlraum. Vor dir eine Wand, die bei genauem Hinsehen eine Rinde zu haben scheint. Mit deinem Blick studierst du deine Umgebung und erkennst schließlich, dass dies keine Wand ist. Was sich vor die in die Höhe erstreckt scheint ein gigantischer Baum zu sein.',
+    'situation': 'So etwas riesiges und majestätisches hast du noch nie in deinem Leben erblickt, was tust du?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Den Baum erkunden',
+            'followups': [
+                {
+                    'ID': 100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

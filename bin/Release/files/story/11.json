@@ -1,0 +1,29 @@
+{
+    'ID' : 11,
+    'scenery': 'Einzig und allein Odin ist schuld an deiner Lage. Du musst ihn finden und dich an ihm rächen, sonst wirst du nie Ruhe finden. Andererseits aber bist du frei und niemand kann dir das nehmen. Du kannst machen, was du willst, ohne dass sich dir jemand in den Weg stellen kann.',
+    'situation': 'Du kannst dich in die Schlacht von Ragnarök stürzen oder aber deine neu gewonnene Freiheit genießen. Was machst du?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Rache nehmen',
+            'followups': [
+                {
+                    'ID': 5,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        
+        {
+            'text': 'Deine Freiheit auskosten',
+            'followups': [
+                {
+                    'ID': 12,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,18 @@
-s
+{
+    'ID' : 0,
+    'scenery': 'Du bist gestorben.',
+    'situation': '',
+    'area': 0,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

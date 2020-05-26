@@ -1,0 +1,28 @@
+{
+    'ID' : 1005,
+    'scenery': 'Du trittst in das Büro deines Vaters, alles ist noch so, wie dein Vater es hinterlassen hatte. Sein Schreibtisch ist voller Notizen und alter Bücher. Nostalgisch überfliegst du einige seiner alten Notizen und entdeckst dabei eine besonders Interessante. Dein Vater schreibt von einer Unterwelt aus der nordischen Mythologie, "Helheim" existiere und er glaubt deine Mutter sei vor 15 Jahren dorthin verschwunden. Auf weiteren auf dem Schreibtisch verstreuten Notizzetteln findest du Koordinaten und auch einige Sagen, die dein Vater herausgesucht haben muss.',
+    'situation': 'Das Ganze klingt sehr wirr, glaubst du an die Recherchen deines Vaters und gehst ihnen nach?',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Ja',
+            'followups': [
+                {
+                    'ID': 1006,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Nein, das ist ein Hirngespinst',
+            'followups': [
+                {
+                    'ID': 1008,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

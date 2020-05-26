@@ -1,0 +1,18 @@
+{
+    'ID' : 1112,
+    'scenery': 'Vorsichtig trittst du wieder an den See heran und beugst dich herab. Ohne dir weiter Gedanken darüber zu machen nimmst du einige große Schlücke aus dem See. Für einen kurzen Augenblick bist du erleichtert, dein Durst ist endlich gelöscht. Doch grade als du dich erheben möchtest fährt ein stechender Schmerz in deinen Körper. Er krümmt sich vor Schmerz und plötzlich vernimmst du eine Stimme. "Ich bin Hel, die Herrin dieses Reiches. Du bist eingedrungen und hast dich an den Seen der Toten gelabt. Nun wirst du zu dieser Welt gehören, jetzt und auf ewig." ',
+    'situation': 'Mit Hels verschwinden spührst du auch wie langsam das Leben aus dir schwindet. Du bist bei Bewusstsein, doch dein Körper fühlt sich leer an. Deine Haut hat sich gräulich gefärbt und fühlt sich... nach nichts mehr an. All deine Sinne scheinen von dir gegangen und dir entrinnt ein verzweifelter Schrei, als du daran denkst, dass es nun auf ewig so sein wird...',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

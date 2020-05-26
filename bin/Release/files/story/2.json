@@ -1,0 +1,28 @@
+{
+    'ID' : 2,
+    'scenery': 'Die Asen schlagen dir einen Test deiner Kräfte vor; sie wollen dich fesseln und du sollst dich losreißen. Solltest du nicht stark genug sein um dich selbst zu befreien, werden sie das selbstverständlich tun. Du willigst ein. Mit einem Seil wirst du festgebunden, dann treten die Asen zurück und beobachten dich. Doch die Fesseln bieten keine Hürde für dich, mit Leichtigkeit kannst du sie zerreißen. Bald darauf kommen sie mit einem neuen Seil, was angeblich stärker ist als das letzte. "Diesmal wirst du es nicht schaffen, dich zu befreien", behaupten sie, "du bist nicht stark genug um dich loszureißen." Erfüllt von gekränktem Stolz lässt du dich erneut fesseln.',
+    'situation': 'Sofort merkst du, dass dieses Seil tatsächlich stärker ist, doch du glaubst, du kannst es zerreißen. Wie fährst du fort?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Dich losreißen',
+            'followups': [
+                {
+                    'ID': 6,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'So tun, als würdest du es nicht schaffen',
+            'followups': [
+                {
+                    'ID': 7,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

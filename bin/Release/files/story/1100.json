@@ -1,0 +1,59 @@
+{
+    'ID' : 1100,
+    'scenery': 'Du scheinst in einer riesigen Höhle zu sein, auf allen Seiten erstrecken sich riesige, unüberwindbare Wände. Ziellos wanderst du umher, bis sich deine Augen endlich langsam an das seltsame Licht gewöhnen. In der Ferne erkennst du eine Art Tor, der einzige Weg, der dich aus dieser Höhle herauszuführen scheint. Du näherst dich ihm neugierig, ohne zu bemerken, dass das Knurren wieder begann. Schließlich erreichst du das Tor. Es ist viel größer als es aus der Ferne zu sein schien, ist das der Weg nach Helheim?. Das Knurren scheint nun bereits direkt hinter dir zu sein doch du lässt dich nicht abhalten. Vorsichtig bewegst du dich auf das riesige Tor zu und als du es fast erreicht hast springt plötzlich ein Wesen zwischen dich und das Tor.',
+    'situation': 'Das Wesen sieht aus wie ein großer Hund, hat jedoch kein Fell. Sein knochiger Körper ist von nichts als Fleisch bedeckt. Du hast bereits von diesem Wesen gehört, es ist Garm, der Wächter der Untwerwelt... Wie wirst du reagieren?',
+    'area': 62,
+    'decisions': [
+        {
+            'text': 'Angreifen',
+            'followups': [
+                {
+                    'ID': 1101,
+                    'probability': 1,
+                    'conditions': [50, 40, 80, 0, 0, 10, 0, 1]
+                },
+				{
+                    'ID': 1102,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Reden',
+            'followups': [
+                {
+                    'ID': 1105,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 70, 0, 40, 70, 0]
+                },
+				{
+                    'ID': 1103,
+                    'probability': 0.7,
+                    'conditions': [70, 40, 80, 10, 45, 10, 0, 1]
+                },
+				{
+                    'ID': 1104,
+                    'probability': 0.7,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		 
+		   {
+            'text': 'Abwarten',
+            'followups': [
+                {
+                    'ID': 1103,
+                    'probability': 0.7,
+                    'conditions': [70, 40, 80, 10, 45, 10, 0, 1]
+                },
+				{
+                    'ID': 1104,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

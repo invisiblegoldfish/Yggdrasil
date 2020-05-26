@@ -1,0 +1,18 @@
+{
+    'ID' : 1119,
+    'scenery': 'Geduldig wartest du auf das Urteil Hels. Du hast ihr deine missliche Lage erklärt, dass deine Mutter verschwand und dass sie dir fehlt. Nun musst du auf Hels Mitgefühl hoffen. Nach einer quälenden gefühlten Ewigkeit wendet sich Hel dir schließlich zu: "Nun gut junger Menschling, du hast lange genug gelitten. Ich werde dich und dein geliebte Mutter frei geben." Mit ihren Worten tritt deine Mutter hinter ihr hervor und du kannst dein Glück kaum fassen.',
+    'situation': 'Unter Tränen fallt ihr euch in die Arme und nach eurer Begrüßung nach all den Jahren bringt Hel euch zurück nach Midgard, in eure Heimat.',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 1132,
+    'scenery': 'Du gehst deinen Weg doch nach einer Weile ist dort wieder dieser bekannte Felsen. Du scheinst erneut im Kreis gelaufen zu sein und beginnst langsam zu verzweifeln. Gerade als du dich aufgeben möchtest siehst du einen verschwommenen Umriss in der Ferne. Du gehst auf ihn zu und umso näher du kommst, desto deutlicher wird er. Als du ihn fast erreicht hast traust du deinen Augen nicht.. es ist Mutter! Sie erkennt dich und fällt dir in die Arme...',
+    'situation': 'Du hast Mutter endlich gefunden, doch sie ist nicht ohne Grund all die Jahre hier geblieben. Sie erklärt dir, dass ihr hier gefangen seid, für immer. Du bist geschockt doch wenigstens seid ihr endlich vereint und verbringt die Ewigkeit gemeinsam...',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

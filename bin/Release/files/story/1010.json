@@ -1,0 +1,18 @@
+{
+    'ID' : 1010,
+    'scenery': 'Erschöpft und zitternd beginnst du deine Reise durch die Schneewüste Grönlands. Der noch angenehm zu gehende Weg Richtung Berge, weg von der Hütte geht schon bald in knietiefen Schnee über. Mühsam kämpfst du dich durch die Schneemassen, doch es dauert nicht lang bis deine Beine müde werden. Als dein Weg steiler wird, können dich deine Beine nicht mehr halten und du brichst zusammen. Du liegst noch eine Weile im kalten Schnee und spührst wie dein Körper immer kälter wird, bis du schließlich deine immer schwerer werdenden Augen schließt...',
+    'situation': '',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

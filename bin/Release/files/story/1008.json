@@ -1,0 +1,28 @@
+{
+    'ID' : 1008,
+    'scenery': 'Enttäuscht verlässt du das Büro deines Vaters, er war immer ein Vorbild für dich und du hast an ihn geglaubt. Als es spät wirst legst du dich ins Bett und denkst noch lange an die Notizen deines Vaters. Nach einiger Zeit kannst du schließlich einschlafen und beginnst zu träumen. In deinem Traum erkennst du ein paar Felsbrocken und ein komisches Licht. Alles ist irgendwie verschwommen, du kannst nicht erkennen wo du bist. Das Licht wird plötzlich immer heller und mit einem weiblichen Schrei in deinem Traum wachst du auf. Du schwitzt und deine Augen sind weit aufgerissen als du dich nun an den Flugzeugabsturz erinnerst. Du siehst den Steinkreis wieder vor dir, das violette Licht und Mutter.',
+    'situation': 'Dieser Steinkreis in dem Mutter vor 15 Jahren verschwand könnte ein Portal gewesen sein, so wie Vater es auf seinen Notizen beschrieben hatte. Wäre das möglich? Könnte die nordische Unterwelt doch existieren?',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Vielleicht hatte Vater recht.',
+            'followups': [
+                {
+                    'ID': 1006,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Nein, unmöglich.',
+            'followups': [
+                {
+                    'ID': 1007,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

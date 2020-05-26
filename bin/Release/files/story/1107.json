@@ -1,0 +1,18 @@
+{
+    'ID' : 1107,
+    'scenery': 'Du trittst an Garm heran, er versucht sich erneut aufzurichten doch seine Verletzungen sind zu groß. "Du bist Garm, nicht wahr? Wächter der Unterwelt", fragst du ihn, doch Garm starrt dich nur mit finsterer Miene an. Unsicher ob dich das Wesen verstehen kann setzt du zu deinen letzten Schlägen an. Garm versucht sich mit letzter Kraft zu wehren, doch es gelingt ihm nicht. Gnadenlos vollendest du, was du begonnen hast.',
+    'situation': 'Garm ist nun endgültig besiegt und das Tor zur unterwelt steht dir offen. Traust du dich hineinzugehen?',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Das Reich der Toten betreten.',
+            'followups': [
+                {
+                    'ID': 1106,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

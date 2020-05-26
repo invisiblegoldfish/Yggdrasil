@@ -1,0 +1,28 @@
+{
+    'ID' : 1106,
+    'scenery': 'Langsam gehst du Richtung des Tores und entdecks erneut einige Runen an ihm. Vorsichtig bewegst du deine Hand in ihre Richtung, mit deiner Berührung beginnen die Runen zu leuchten und das Tor öffnet sich langsam. Dahinter erstreckt sich dir eine gigantische Landschaft bestehend aus abgestorbenen Bäumen und Geäst. Es ist eiskalt, grau und dunkel in dieser Welt. Kein Sonnenstrahl scheint bis hier durchzudringen und du kannst die Landschaft und Wege um dich herum nur wage erkennen.',
+    'situation': 'Du gehst einige Schritte weiter und bemerkst zu deiner linken eine Seenlandschaft. Der Weg zu deiner rechten scheint dich durch einen finsteren Wald zu führen. Welchen Weg wirst du gehen?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Die Seen erkunden.',
+            'followups': [
+                {
+                    'ID': 1108,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Den Wald erkunden.',
+            'followups': [
+                {
+                    'ID': 1109,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

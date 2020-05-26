@@ -1,0 +1,38 @@
+{
+    'ID' : 108,
+    'scenery': 'Nach kurzer Überlegung entscheidest du, dass der Raum unter der Wurzel dir zu eng aussieht und du lieber versuchen möchtest, hinüberzuklettern. Es dauert eine Weile, bis du eine Stelle gefunden hast, an der du genügend Halt zum Klettern hast, doch dann ist es ganz einfach. Schon bald stehst du oben und kannst hinuntersehen auf das Wesen, welches du bisher nur erahnen konntest. Riesig ist es, mit Schuppen bedeckt und vermutlich in der Lage, dich in einem Stück zu verschlingen. Ein Drache, wie er in Geschichten vorkommt. Ob es so eine gute Idee war herzukommen?',
+    'situation': 'Du überlegst, auf der einen Seite neugierig, auf der anderen aber auch eingeschüchtert. Was machst du?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Umkehren',
+            'followups': [
+                {
+                    'ID': 109,
+                    'probability': 1,
+                    'conditions': [30, 0, 0, 0, 0, 20, 0, 0]
+                },
+                {
+                    'ID': 111,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Hingehen',
+            'followups': [
+                {
+                    'ID': 110,
+                    'probability': 1,
+                    'conditions': [30, 0, 0, 0, 0, 20, 0, 0]
+                },
+                {
+                    'ID': 109,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

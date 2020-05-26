@@ -1,0 +1,23 @@
+{
+    'ID' : 12,
+    'scenery': 'Ohne ein konkretes Ziel wanderst du herum. Anfangs kreisen deine Gedanken um Odin und die anderen Asen, um ihren Verrat an dir. Doch nach und nach gelingt es dir, loszulassen. Dein Blick schweift über die Landschaft, welche so ganz anders ist als das Gefängnis, dem du entrinnen konntest. Die kargen Felsen sind moosbedecktem Boden gewichen, hier und da stehen Bäume.',
+    'situation': 'In der Ferne erspähst du ein Eichhörnchen und verspürst plötzlich den Drang, ihm nachzuhetzen.',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Ihm folgen',
+            'followups': [
+                {
+                    'ID': 13,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },           
+                {
+                    'ID': 7001,
+                    'probability': 0.7,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

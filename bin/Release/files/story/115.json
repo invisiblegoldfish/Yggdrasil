@@ -1,0 +1,18 @@
+{
+    'ID' : 115,
+    'scenery': 'Du folgst dem Verlauf des Astes, als plötzlich alles zu beben beginnt. Die Blätter über dir, das Geäst um dich, der Boden unter deinen Füßen, alles wackelt. Verzweifelt versuchst du Halt zu finden, dich an der Rinde festzuhalten, aber immer wieder rutschst du ab. Du fällst hin und rollst ein Stück und es schießt durch deinen Kopf: “Das ist das Ende. Ich werde sterben.” Doch dann gelingt es dir, dich in der Rinde festzukrallen. Das muss Ragnarök sein, das Ende der Welten. In einer einzigen riesigen Schlacht werden sie untergehen, auseinanderfallen. Wieder rutschst du ab, aber was spielt es schon für eine Rolle? Die Welten vergehen und du mit ihnen. Doch sie werden neu entstehen und mit diesem Gedanken stürzt du in die Tiefe.',
+    'situation': '',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 405,
+    'scenery': 'Mit einem ohrenbedäubenden Lärm bricht Chaos herein. Völlig verwirrt stehst du da und weißt nicht mehr wo oben und unten ist. Die Welten fangen an sich aufzulösen, Feuer breitet sich überall aus. Ist das der Weltenbrannt nach Ragnarök? Wie konntest du nur diese entscheidene Schlacht verpassen?',
+    'situation': '',
+    'area': 21,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+	]
+}

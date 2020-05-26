@@ -1,0 +1,18 @@
+{
+    'ID' : 10,
+    'scenery': 'In bester Laune machen die Asen sich auf den Heimweg. Sie sind die schlausten, dessen sind sie sich nun sicher. Immer wieder drehen sie sich um und lachen, während sie sich langsam entfernen. Innerlich tobst du vor Wut, doch du lässt es dir nicht anmerken. Geduldig wartest du, bis die Asen endlich nicht mehr zu sehen sind, dann erst versuchst du dich zu befreien. Binnen von Minuten hast du das Seil zerrissen und bist wieder frei.',
+    'situation': 'Du blickst dich um. Den Asen kannst du nicht vertrauen, sie wollten dich hinters Licht führen. Bestimmt war der Plan von Odin. Was machst du?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Odin suchen',
+            'followups': [
+                {
+                    'ID': 11,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

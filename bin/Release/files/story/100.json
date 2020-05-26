@@ -1,0 +1,28 @@
+{
+    'ID' : 100,
+    'scenery': 'Der gigantische Baum erstreckt sich in alle Richtungen. Äste reichen in die Ferne, so breit, dass du dir nicht sicher bist, wo sie aufhören. Weit unter dir beginnen die Wurzeln, so weit, dass dir schwindelig wird, als du hinunterschaust. Oben muss sich die Baumkrone befinden, doch dein Blick reicht gerade bis zu den Ästen über dir. Du befindest dich auf Yggdrasil, der Weltesche, welche die neun Welten miteinander verbindet. Von hier aus ist es möglich, in jede einzelne davon zu gelangen. Voller Staunen blickst du dich um.',
+    'situation': 'Die Furchen in der Rinde des Weltenbaumes sind so tief, dass sie regelrechte Wege bilden. Du kannst laufen, wohin du möchtest.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'In Richtung Wurzeln',
+            'followups': [
+                {
+                    'ID': 101,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Zur Baumkrone',
+            'followups': [
+                {
+                    'ID': 113,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 1110,
+    'scenery': 'Du machst den ersten Schritt in das eiskalte Wasser. Es brennt, doch das kann dich nicht mehr aufhalten. Ohne, dass du Kontrolle darüber hättest tragen dich deine Beine immer weiter hinein. Du bist wie hypnotisiert und als deine Füße den Grund nicht mehr erreichen können sinkst du zum Grund des Sees. Plötzlich bemerkst du deine Situation und versuchst die Wasseroberfläche zu erreichen, doch du kannst sie nicht finden. Jede Richtung sieht gleich aus und ein Sog zieht dich immer weiter in Richtung Boden.',
+    'situation': 'Plötzlich entdeckst du etwas in der Ferne und brauchst nicht lange um zu erkennen was es ist. Es ist deine Mutter, leblos treibt ihr Körper in den Tiefen des Sees, von der zeit jedoch unberührt. Endlich hast du sie gefunden, und obwohl es dein Ende ist, bist du nun endlich glücklich...',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden.',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    'ID' : 1118,
+    'scenery': 'Du verlierst jegliche Geduld und vergisst dich völlig. Wütend stürmst du auf Hel zu, ohne zu wissen mit was du sie angreifen wirst. Doch Hel ist klug und stark, so weicht sie deinem Angriff aus und du rennst ins Leere. Du bist nun wieder bei dir und beginnst darüber nachtzudenken, wie du Hel besiegen kannst. Zum Reden ist es zu spät doch du kannst es schaffen.',
+    'situation': 'Du bemerkst nun wieder die Fackeln an der Wand. Feuer ist eine starke Waffe und du könntest es nutzen, um Hel zu schwächen. Andererseits denkst du, du bist geschickt genug, um Hels angriffen auszuweichen und sie zu kontern. Wofür entscheidest du dich?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Das Feuer nutzen.',
+            'followups': [
+                {
+                    'ID': 1123,
+                    'probability': 0.6,
+                    'conditions': [10, 35, 10, 60, 0, 10, 0, 0]
+                },
+				{
+                    'ID': 1121,
+                    'probability': 0.4,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Ausweichen und kontern.',
+            'followups': [
+                {
+                    'ID': 1123,
+                    'probability': 0.03,
+                    'conditions': [10, 35, 10, 60, 0, 10, 0, 0]
+                },
+				{
+                    'ID': 1121,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

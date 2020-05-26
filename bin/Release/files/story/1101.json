@@ -1,0 +1,28 @@
+{
+    'ID' : 1101,
+    'scenery': 'Garm starrt dich mit finsterem Blick an, doch bewegt sich nicht. Du stürmst auf ihn zu und holst zu deinem Schlag aus. Du konntest Garm mit deiner Angriffslust überraschen und zertrümmerst mit einem Hieb einen Teil seines Schädels. Sein Biss kann dir nun nicht mehr gefährlich werden, ein Vorteil für dich, den du nutzen wirst. Benommen versucht Garm dich mit seinem scharfen Blick zu fokussieren. Doch es gelingt ihm nicht, du siehst wie er taumelt, dein Hieb hat großen Schaden angerichtet.',
+    'situation': 'Garm kann sich offensichtlich nicht mehr wehren. Er ist besiegt, was wirst du nun tun?',
+    'area': 62,
+    'decisions': [
+        {
+            'text': 'Mit ihm reden.',
+            'followups': [
+                {
+                    'ID': 1105,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Es zu Ende bringen.',
+            'followups': [
+                {
+                    'ID': 1107,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

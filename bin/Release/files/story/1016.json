@@ -1,0 +1,18 @@
+{
+    'ID' : 1016,
+    'scenery': 'Die Lawine prallt mit voller Wucht auf den schützenden Felsen. Es dauert nicht lange bis die Schneemassen den Felsen überragen und scheinbar gierig nach dir greifen. Dank des Gesteins entsteht um dich herum Hohlraum, in den der Schnee nicht eindringen kann. Du presst dich an den Felsen und mit zugekniffen Augen wartest du, bis das Beben aufhört. Als es ruhiger wird öffnest du die Augen und stellst fest, dass du in völliger Finsternis sitzt. Verzweifelt versuchst du dich zu befreien, kannst jedoch nicht sehen in welche Richtung du graben musst. Desto länger du versuchst einen Ausweg zu finden, umso knapper wird die Luft. Auch deine Kraft schwindet mit der Kälte in dem Schneebedeckten Hohlraum.',
+    'situation': 'Es dauert keine Stunde bis deine Finger eisig und deine Kräft geschwunden sind. Du wirst mit jeder Sekunde schwächer und schließt schließlich deine erschöpften Augen...',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

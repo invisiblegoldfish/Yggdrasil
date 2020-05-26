@@ -1,0 +1,18 @@
+{
+    'ID' : 116,
+    'scenery': 'Vorsichtig lugst du über den Brunnenrand, bereit beim kleinsten Zeichen von Gefahr zurückzuspringen und die Flucht zu ergreifen. Aber zu deiner großen Überraschung ist dort nichts, der Brunnen ist komplett verlassen. Unbewacht liegt die Quelle vor dir und scheint beinahe nach dir zu rufen. Für eine Gelegenheit wie diese hat Odin sein Auge geopfert. Der Gedanke der Weisheit, welche das Wasser verleiht, lockt dich und du fühlst dich auf eine merkwürdige Weise zur Quelle hingezogen. Ohne weiter darüber nachzudenken, beugst du dich zur Oberfläche hinunter und nimmst einen Schluck Wasser. Was darauf folgt, ist schwer zu beschreiben. Alles bleibt gleich, wirkt jedoch grundlegend anders, klarer, deutlicher, als hätte sich ein Nebel gelichtet, von dem du nicht einmal wusstest, dass er da war.',
+    'situation': 'Mit einem unbeschreiblichen Gefühl von Klarheit ziehst du weiter, bestrebt die Welten, die du nun komplett verstehst, mit eigenen Augen zu sehen.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Wieder hochklettern',
+            'followups': [
+                {
+                    'ID': 112,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

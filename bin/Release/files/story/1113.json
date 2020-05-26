@@ -1,0 +1,28 @@
+{
+    'ID' : 1113,
+    'scenery': 'Schwermütiger als dir lieb ist wendest du dich von dem See ab und setzt deinen Weg fort. Immer wieder quälen leiste Stimmen deine Gedanken, sie scheinen aus allen Richtungen zu kommen, doch du lässt dich nicht beirren. Vorbei an kaltem Gestein, toter Erde und abgestorbenem Wald führt dich dein Weg schließlich zu einer Abzweigung.',
+    'situation': 'Ein dunkler Weg, umschlossen von trockenen Sträuchern und Geäst führt dich scheinbar in einen Wald. Du siehst auch einen zweiten Weg, er ist steinig und scheinbar schwer zu begehen. Er führt in eine Art Steinwüste, eine große Fläche voller Felsen. In welche Richtung wirst du gehen?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'In den Wald.',
+            'followups': [
+                {
+                    'ID': 1109,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'In die Steinwüste.',
+            'followups': [
+                {
+                    'ID': 1116,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    'ID' : 1011,
+    'scenery': 'Du konntest bereits am nächsten Tag eine Überfahrt nach Grönland organisieren. Die Fahrt dauert sehr lang, um die Zeit zu überbrücken studierst du in Ruhe die Bücher deines Vaters. Dabei fällt dir eines besonders auf, es trägt den Titel "Yggdrasil" und handelt von einem Baum der dich in alle 9 Welten führen kann, also auch nach Helheim. Deine Gedanken werden durch starke Schwankungen und am Bug aufschäumende Gischt unterbrochen. Ein Sturm scheint aufzuziehen und das Boot gerät ins wanken. Der starke Wellengang verdeckte ein paar Felsen in der Ferne, nichts ahnend steuert der Kapitän darauf zu. Die Kollision reißt ein riesiges Loch in den Rumpf des Schiffes und schon fast das ganze Deck steht unter Wasser.',
+    'situation': 'Das Boot droht zu sinken, ihr seid bereits kurz vor der Küste Grönlands. Du musst dich entscheiden...',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Auf dem Boot bleiben',
+            'followups': [
+                {
+                    'ID': 1012,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1013,
+                    'probability': 0.2,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Springen',
+            'followups': [
+                {
+                    'ID': 1012,
+                    'probability': 0.3,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				 {
+                    'ID': 1013,
+                    'probability': 0.7,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

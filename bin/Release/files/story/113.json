@@ -1,0 +1,18 @@
+{
+    'ID' : 113,
+    'scenery': 'Immer weiter bahnst du dir deinen Weg hinauf in Richtung der Baumkrone. In den Zweigen um dich herum hüpfen Vögel umher, die unbeschwert vor sich hin zwitschern. An einer Stelle bleibst du kurz stehen, um dich im Sonnenlicht zu baden. Du befindest dich jetzt so weit oben, dass dir beim Gedanken eigentlich Schwindel sollte, aber stattdessen erfüllt die Aussicht dich mit einer unbeschreiblichen Freude. Die Welten stehen dir offen, du kannst sie nach Belieben erforschen. In Gedanken schon mitten in einem Abenteuer gehst du weiter, bis du plötzlich in grelles Sonnenlicht trittst. Überrascht bleibst du stehen und schaust dich um.',
+    'situation': 'Weiter oben erspähst du einen Raben, der auf einem Ast hockt und auf jemanden zu warten scheint.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Zur Baumkrone',
+            'followups': [
+                {
+                    'ID': 114,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

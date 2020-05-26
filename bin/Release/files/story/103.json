@@ -1,0 +1,53 @@
+{
+    'ID' : 103,
+    'scenery': 'Zielstrebig gehst du weiter, auf der Suche nach dem Ursprung des Plätscherns. Ob es Mimirs Brunnen ist, den du hören kannst? Du bleibst stehen. Woher kommt das Geräusch? Unsicher gehst du ein paar Schritte nach links. Wird das Plätschern gerade leiser? Du weißt es nicht und gehst ein Stück zurück. Jetzt wird es definitiv leiser. Fast hast du das Gefühl, jemand spiele mit dir.',
+    'situation': 'Desorientiert stehst du zwischen den Wurzeln des Weltenbaums. Wo willst du lang gehen?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Nach links',
+            'followups': [
+                {
+                    'ID': 105,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 106,
+                    'probability': 0.3,
+                    'conditions': [50, 0, 0, 0, 40, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Geradeaus',
+            'followups': [
+                {
+                    'ID': 105,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 106,
+                    'probability': 0.5,
+                    'conditions': [50, 0, 0, 0, 40, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Geradeaus',
+            'followups': [
+                {
+                    'ID': 105,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 106,
+                    'probability': 0.4,
+                    'conditions': [50, 0, 0, 0, 40, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

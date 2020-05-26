@@ -1,0 +1,18 @@
+{
+    'ID' : 1131,
+    'scenery': 'Du gehst deinen Weg doch nach einer Weile ist dort wieder dieser bekannte Felsen. Du scheinst erneut im Kreis gelaufen zu sein und beginnst langsam zu verzweifeln. Geradeaus zu gehen scheint dich immer wieder im Kreis zu führen und auch den Weg, durch welchen du die Steinwüste betreten hast kannst du nicht mehr finden. Du beginnst zu rennen, alle Wege, die sich dir eröffnen rennst du entlang.',
+    'situation': 'Als du alle Wege probiert hast brichst du erschöpft zusammen. Es gibt keinen Ausweg, jedenfalls keinen, den du erreichen kannst. Du legst dich auf den kalten Boden und akzeptierst dein Schicksal: ab jetzt gehörst du zu dieser Welt, du wirst sie nie wieder verlassen können...',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden.',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

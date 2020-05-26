@@ -1,0 +1,33 @@
+{
+    'ID' : 1009,
+    'scenery': 'Bereits am nächsten Tag sitzt du in deinem Jet Richtung Grönland. Während des Fluges liest du in den Büchern deines Vaters und bemerkst nicht, wie unter dem Jet immer mehr Eisschollen erscheinen und wie sich der Himmel allmählig zuzieht. Als du hochblickst sind die Wolken bereits grau und der Wind stark. Das leichte rütteln des Flugzeugs, dass durch die Böhen entsteht weckt deine Erinnerung an den Absturz. Scheinbar hat dieser eine Flugansgst in die verursacht, die sich nun in voller Stärke bemerkbar machst. Nervös kneifst du die Augen zu und versuchst dich bis zur Landung abzulenken.',
+    'situation': 'In Grönland angekommen bist du noch immer von der Nervösität des Fluges übermannt. Der Pilot rät dir, dich in der Hütte unweit des Flugplatzes noch ein wenig auszuruhen, doch du möchtest sofort weitergehen. Was tust du?',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Ausruhen',
+            'followups': [
+                {
+                    'ID': 1014,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Weitergehen',
+            'followups': [
+                {
+                    'ID': 1010,
+                    'probability': 0.1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				  {
+                    'ID': 1014,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

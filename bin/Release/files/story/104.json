@@ -1,0 +1,18 @@
+{
+    'ID' : 104,
+    'scenery': 'Das Wesen, welches du nun schon zweimal gesehen hast, hat dein Interesse geweckt. Voller Wissensdrang begibst du dich auf die Suche nach ihm und läufst in die Richtung, in die es vorhin verschwunden sein muss. Dein Weg führt dich durch das dichte Unterholz, von dem du immer weniger glauben kannst, dass es zu einem einzigen Baum gehören soll. Über dir, unter dir, überall sind Wurzeln, mehr als du je an einem Ort gesehen hast. Da! Wieder ein Brüllen, genau wie das vor – wie lange mag es her sein? Ein paar Minuten? Mehrere Stunden? Du hast jegliches Zeitgefühl verloren.',
+    'situation': 'Du drehst dich in die Richtung, aus der das Brüllen kam, aber eine Wurzel versperrt dir den Weg. Möchtest du darunter durchkriechen oder rüberklettern?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Darunter hindurchkriechen',
+            'followups': [
+                {
+                    'ID': 107,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

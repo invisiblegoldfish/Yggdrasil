@@ -1,0 +1,32 @@
+{
+    'ID' : 1003,
+    'scenery': 'Du kannst dich nicht zurückhalten und streifst mit deinen Fingern über eines der Symbole, welches plötzlich in violettem Licht erstrahlt. Das Licht breitet sich aus, deine Mutter bemerkt dies und zieht dich zurück. "Bleib zurück Svenja", sagte sie, während sie sich der Ruine vorsichtig näherte. Beunruhigt beobachtest du, wie immer mehr Symbole zu leuchten beginnen, während deine Mutter das Innere des Steinkreises untersucht. Als alle Symbole leuchten, erstrahlt das violette Licht so stark, dass du für einen kurzen Augenblick nichts anderes als das Licht sehen kannst. Mit seinem Abklingen, öffnest du die Augen und stellst mit Erschrecken fest, dass von deiner Mutter jede Spur fehlt.',
+    'situation': '15 Jahre später stehst du vor dem Büro deines verstorbenen Vaters. Seid er verstarb hast du es nicht mehr betreten. Gehst du hinein?',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Ja, betritt das Büro.',
+            'followups': [
+                {
+                    'ID': 1005,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Nein, meine Trauer ist noch zu groß.',
+            'followups': [
+                {
+                    'ID': 1007,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+ 

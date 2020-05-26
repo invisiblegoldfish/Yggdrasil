@@ -1,0 +1,28 @@
+{
+    'ID' : 1014,
+    'scenery': 'Du begibst dich in die kleine Hütte und siehst dich um. Drinnen ist nicht viel zu finden, lediglich ein Tisch auf dem einige Konserven stehen und ein kleines Feldbett in der Ecke, unbequem, aber ausreichend um deine müden Knochen auszuruhen. Du fällst ins Bett und schläfst nahezu sofort ein. Später weckt dich helles Licht, dass durch das kleine Fenster neben dem Feldbett scheint. Du hast lange und tief geschlafen, das hast du gebraucht. Nun bist du ausgeruht und nachdem du eine der Konserven gegessen hast, auch wieder bei Kräften. Du steckst die restlichen Konserven in deinen Rucksack und kannst dich nun endlich auf den Weg machen. Nach einigen Kilometern erreichst du den Fuß eines Berges.',
+    'situation': 'Es gibt eine Höhle, die dich unter dem Berg hindurch führt. Du bist nun auch ausgeruht genug ihn zu erklimmen. Wofür entscheidest du dich?',
+    'area': 61,
+    'decisions': [
+        {
+            'text': 'Die Höhle betreten',
+            'followups': [
+                {
+                    'ID': 1022,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Den Berg überqueren',
+            'followups': [
+                {
+                    'ID': 1015,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

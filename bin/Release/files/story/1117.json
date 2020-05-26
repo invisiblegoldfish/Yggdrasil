@@ -1,0 +1,38 @@
+{
+    'ID' : 1117,
+    'scenery': 'Natürlich möchtest du die Ewigkeit nicht in dieser kalten, toten Welt verbringen. Um Hel zu überzeugen, musst du klug sein und die richtigen Worte finden. Zunächst verbeugst du dich, denn du redest mit einer Göttin, der Tochter des Loki, der Herrin Helheims. "Bitte Hel, alle Welten sind verbunden, es sollte jedem frei stehen diese zu erkunden.", Hel zeigt keine Reaktion auf deine Versuche, du versuchst weiter ihr die Verbundenheit zu erklären und was dich in diese Welt führt.',
+    'situation': 'Hoffnungsvoll wartest du auf eine Reaktion. Deine Wort scheinen Hel erreicht zu haben. Sie denkt über dein Angebot nach, doch zu lange, wie du findest. Noch immer hat sie dir keine Antwort gegeben. Was tust du?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Abwarten',
+            'followups': [
+                {
+                    'ID': 1119,
+                    'probability': 0.3,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1120,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1118,
+                    'probability': 0.5,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Hel angreifen.',
+            'followups': [
+                {
+                    'ID': 1118,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

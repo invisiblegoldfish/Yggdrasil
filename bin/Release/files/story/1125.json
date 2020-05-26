@@ -1,0 +1,18 @@
+{
+    'ID' : 1125,
+    'scenery': 'Zügig begibst du dich wieder nach draußen. Hinaus aus der Kammer, die Treppe hinauf zurück in den Wald. Ganz Helheim bebt, die Toten schreien und die Seen scheinen nun lebendig. Du verfällst in Panik, deine Atmung wird immer schneller und doch schwerer. Du eilst in Richtung des Tores Hels, und es scheint als würdest du schaffen. Doch als das Tor zum greifen nah ist brichst du zusammen.',
+    'situation': 'Als du wieder zu dir kommst ist es plötzlich ganz warm um dich herum. Du öffnest die Augen und bemerkst sofort den gigantischen Baum, direkt vor dir. Was tust du?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Den Baum genauer ansehen.',
+            'followups': [
+                {
+                    'ID': 100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    'ID' : 1022,
+    'scenery': 'Schnellen Schritts stapfst du Richtung Höhle, in der Hoffnung mit ihr einen halbwegs warmen Unterschlupf und einen Weg durch den berg zu finden. Als du die Höhle betrittst weht dir ein lauer Wind in dein kaltes Gesicht. Er ist angenehm warm und für eine Sekunde kannst du den Moment genießen. Dein Frieden wird jedoch schnell von einem lauten Knurren unterbrochen. Du gehst ein paar Schritte weiter und umso tiefer du in die Finsternis der Höhle eindringst, desto lauter werden die Geräusche.',
+    'situation': 'Der Weg spaltet sich, du kannst deutlich hören aus welcher Richtung das Knurren kommt. Es klingt bedrohlich und auf dem anderen Pfad kannst du einen Lichtschimmer erkennen. Für welche Richtung entscheidest du dich?',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Den Geräuschen folgen.',
+            'followups': [
+                {
+                    'ID': 1019,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Dem Licht folgen.',
+            'followups': [
+                {
+                    'ID': 1020,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

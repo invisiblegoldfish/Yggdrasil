@@ -1,0 +1,28 @@
+{
+    'ID' : 1130,
+    'scenery': 'ie Toten kommen immer näher, es ist offensichtlich, sie wollen dir nichts Gutes. Mutig stellst du dich ihnen entegen, vernichtest einen nach dem Anderen. Der Lärm, der durch deinen Kampf verursacht wird scheint auch andere Diener Hels in deine Richtung zu führen. Es sind recht viele geworden doch du bist ihnen überlegen. Einer nach dem Anderen wird von dir niedergerrungen, es dauerte nicht lang bis alle Toten besiegt waren. Bevor andere Wesen dich erreichen gehst du zügig weiter und hinterlässt ein Schlachtfeld. Was du aber eineige Meter später erblickst trifft dich wie ein Schlag.',
+    'situation': 'Du stehst erneut vor der Treppe, die du anfangs entdeckt hattest. Und zu deiner Verwunderung kannst du in der Ferne die Steinwüste erkennen, die du in der Seenlandschaft umgangen bist. Der Wald führt dich im Kreis, welchen Weg wirst du nun gehen?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Die Treppe hinunter.',
+            'followups': [
+                {
+                    'ID': 1114,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Zur Steinwüste.',
+            'followups': [
+                {
+                    'ID': 1116,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

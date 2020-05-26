@@ -1,0 +1,18 @@
+{
+    'ID' : 110,
+    'scenery': 'Das schlangenartige Wesen nagt an einer Wurzel des Baumes, welche schon sehr mitgenommen aussieht. Überall liegen Holzsplitter und während du zuschaust, reißt der Drache ein großes Stück aus dem Holz. Er scheint den Baum zerstören zu wollen, doch du bezweifelst, dass sein Vorhaben erfolgreich sein wird. Zu mächtig sind die Wurzeln. Ein wenig zögerlich gehst du einen Schritt vor, dann noch einen, ehe das Ungeheuer dich endlich bemerkt. Es hält mitten in der Bewegung inne. “Du bist nicht Ratatoskr”, bemerkt es. “Was willst du hier? Ich bin beschäftigt.” Und wieder widmet es sich der Wurzel.',
+    'situation': 'Gerne würdest du mehr erfahren über dieses Wesen, aber es will scheinbar nicht mit dir reden.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Wieder hochklettern',
+            'followups': [
+                {
+                    'ID': 112,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

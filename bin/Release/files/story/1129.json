@@ -1,0 +1,18 @@
+{
+    'ID' : 1129,
+    'scenery': 'Die Toten kommen immer näher, es ist offensichtlich, sie wollen dir nichts Gutes. Mutig stellst du dich ihnen entegen, vernichtest einen nach dem Anderen. Doch der Ansturm scheint nicht aufzuhören. Der Lärm, der im Kampf verursacht wird, führt immer mehr Diener Hels in deine Richtung. Obwohl du dich mit all deiner Kraft wehrst werden es nicht weniger. Es sind zu viele und deine Kräfte schwinden langsam. Mit letzter Kraft ringst du noch einige nieder doch schließlich wirst du überrannt...',
+    'situation': '',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

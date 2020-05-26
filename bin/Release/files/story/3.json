@@ -1,0 +1,18 @@
+{
+    'ID' : 3,
+    'scenery': 'Du verlangst, dass einer der Asen seine Hand in dein Maul legt. Du wirst nur zubeißen, wenn sie dich tatsächlich hereingelegt haben, versprichst du. So können sie dir zeigen, dass du ihnen trauen kannst. Die Asen schauen alle betreten fort und deine Zweifel wachsen. Schließlich jedoch erklärt Tyr sich bereit und tritt vor. Du nimmst seine Hand ins Maul und nun legen die anderen Asen das Seil um dich. Auf ihr Zeichen hin versuchst du auch dieses Mal wieder, die Fesseln zu sprengen, aber sie sind stärker. Du kämpfst gegen sie, windest dich, doch sie werden nur fester. Nach langem Ringen merkst du schließlich, dass du dich nicht befreien kannst. Auch die Asen bekommen das mit, machen jedoch keine Anstalten, dich loszubinden.',
+    'situation': 'Du wurdest hereingelegt, bist gefesselt und wirst nicht freikommen. Tyrs Hand hast du noch immer im Maul. Was machst du?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Die Hand abbeißen',
+            'followups': [
+                {
+                    'ID': 4,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

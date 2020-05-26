@@ -1,0 +1,18 @@
+{
+    'ID' : 2002,
+    'scenery': 'Der Himmel teilt sich. Für einen kurzen Moment steht die Schlacht stillt. Dein Eintreffen erfüllt alle mit Angst. Dann bricht das Chaos aus. Der Himmel hinter dir brennt. Ein unbewaffneter Vanir tritt dir entgegen. Frey. Dir wurde zugetragen, dass er der einzige sein soll, der dich stoppen kann. Du entfesselst deine gesamte Kraft und mit einem Schlag streckst du Frey nieder. Er konnte dir nichts entgegensetzen. Seine Stärke war wohl nur ein Gerücht. Die Welt um dich herum brennt. Du schleuderst Feuer in alle Richtungen. Schreie, Tod, Chaos. Dein Feuer ist unaufhaltbar. Schon bald ist alles Leben in den Welten ausgelöscht.',
+    'situation': '',
+    'area': 21,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 14,
+    'scenery': 'Auf einmal erbebt der ganze Baum um dich herum. Nur mit Mühe gelingt es dir, dich so festzukrallen, dass du nicht in die Tiefe stürzt. Das müssen die Auswirkungen von Ragnarök sein, irgendwo muss bereits gekämpft werden. Und mit einem Mal erinnerst du dich wieder an dein Leben in Asgard. An das Unrecht, das dir widerfahren ist, an den Verrat, der an dir begangen wurde. Dir ist, als würdest du alles von neuem erleben, würdest wieder gefesselt, wieder verspottet. Dein Hass gegen Odin brennt erneut auf und du kannst an nichts anderes mehr denken als an deine Rache.',
+    'situation': 'Du preschst los, wild entschlossen, Odin während Regnarök zu töten und so endlich Gerechtigkeit zu finden.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'In die Schlacht',
+            'followups': [
+                {
+                    'ID': 5,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

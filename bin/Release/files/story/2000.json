@@ -1,0 +1,23 @@
+{
+    'ID' : 2000,
+    'scenery': 'Es ist dunkel und kalt in deinem Reich. Doch der Gedanke ans Ende der Welten lässt ein Feuer in dir brennen.',
+    'situation': 'Die Welt scheint noch nicht dem Ende nahe zu sein.',
+    'area': 70,
+    'decisions': [
+        {
+            'text': 'Warten',
+            'followups': [
+                {
+                    'ID': 2000,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 2001,
+                    'probability': 0.35,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

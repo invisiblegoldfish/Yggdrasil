@@ -1,0 +1,33 @@
+{
+    'ID' : 1013,
+    'scenery': 'Das Boot sinkt immer weiter und erzeugt einen starken Sog, der dich in seinen Bann reißen möchte. Doch du hast nicht vor jetzt schon aufzugeben. Du wendest all deine Kraft auf um dich von dem Boot zu entfernen. Du nutzt die Felsen, die dich umgeben, um dich Richtung Küste abzustoßen. Irgendwann erreichst du schließlich die Küste und zeihst dich mit letzter Kraft auf das rettende Land. Erschöpft drehst du dich auf den Rücken, du bist müde, doch du musst aufstehen und weiterziehen. Neben dir liegt dein Rucksack, er wurde mit dir angespühlt. Erleichtert aber langsam verlässt du den Strand und erspähst unweit von dir eine kleine Hütte.',
+    'situation': 'Du bist erschöpft und könntest dich in der Hütte ausruhen. Andererseits kann das Verlangen deine Mutter wiederzusehen keine Minute mehr warten. Wie entscheidest du dich?',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Weiter gehen',
+            'followups': [
+                {
+                    'ID': 1010,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+				{
+                    'ID': 1014,
+                    'probability': 0.1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+		{
+            'text': 'Ausruhen',
+            'followups': [
+                {
+                    'ID': 1014,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

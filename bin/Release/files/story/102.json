@@ -1,0 +1,28 @@
+{
+    'ID' : 102,
+    'scenery': 'Um dich herum befindet sich ein Geflecht aus Wurzeln, so dicht, dass du kaum hindurchblicken kannst. Es gibt Wurzelstränge dicker als die dicksten Bäume, die du kennst, und andere dünner als dein Haar. Du hörst ein Plätschern, aber kannst nicht einordnen, wo genau es herkommt. Wenig später siehst du aus dem Augenwinkel eine riesige Kreatur, dieselbe wie vorhin? Doch als du dich umdrehst, ist dort nichts. Etwas schlängelt sich an deinen Füßen entlang, ist aber ebenfalls verschwunden, bevor du sehen kannst, was es war.',
+    'situation': 'Neugierig schaust du dich um. Was möchtest du erforschen?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Das Plätschern',
+            'followups': [
+                {
+                    'ID': 103,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Den Drachen suchen',
+            'followups': [
+                {
+                    'ID': 104,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

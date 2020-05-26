@@ -1,0 +1,22 @@
+{
+    'ID' : 1004,
+    'scenery': 'Du stehst von deinem Platz auf, um zu deiner Mutter zu gelangen. Durch die nun starken Turbulenzen taumelst du auf dem Weg und erreichst schließlich stolpernd und halb stürzend den Sitz deiner Mutter. Wie schon vor einer Stunde schläft Mutter tief und fest. Du weckst sie und sie weiß sofort, dass etwas nicht stimmt. Sie setzt dich auf den Sitz ihr gegenüber und schnallt dich an, auch sie setzt sich und sagt: "Schließ die Augen Liebes!". Wie immer tust du was Mutter sagt, schließt die Augen und hälst dir mit deinen Händen die Ohren zu. Für ein paar Minuten wird es still um dich. Alles was du spürst ist das rütteln des Jets und der Gurt, der gegen deinen Bauch drückt. Du siehst durch das Fenster, wie der Boden immer näher kommt. Alles wird schwarz...',
+    'situation': '',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+ 

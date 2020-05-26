@@ -1,0 +1,18 @@
+{
+    'ID' : 117,
+    'scenery': '“Wer ist da?”, ruft eine laute Stimme und du schreckst zurück. “Weiche, Fremder!”, fährt die Stimme fort, doch du wagst einen weiteren Blick. Auf einem Stein neben dem Wasser ruht der Kopf eines Riesen, sauber abgetrennt vom Hals. Mimir. “Du suchst Weisheit, nehme ich an? Dann geh wieder. Das ist das weiseste, was du tun kannst.” Du musst verwirrt aussehen, denn er wiederholt: “Geh. Fort. Du willst diese Weisheit nicht, glaub mir. Ich habe sie. Odin hat sie, er hat sein Auge dafür geopfert. Aber komm jetzt nicht auf die Idee, das auch zu tun, du kannst mir so viele Augen opfern wie du willst, ich werde dich nicht aus meinem Brunnen trinken lassen. Geh fort.”',
+    'situation': 'Und obwohl von dem Wesen keine offensichtliche Gefahr auszugehen scheint, bist du überzeugt. Du willst die Weisheit nicht und kehrst um.',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Wieder hochklettern',
+            'followups': [
+                {
+                    'ID': 112,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

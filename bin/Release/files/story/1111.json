@@ -1,0 +1,28 @@
+{
+    'ID' : 1111,
+    'scenery': 'Du machst den ersten Schritt in das eiskalte Wasser. Es brennt, doch das kann dich nicht mehr aufhalten. Ohne, dass du Kontrolle darüber hättest tragen dich deine Beine immer weiter hinein. Du bist wie hypnotisiert und als deine Füße den Grund nicht mehr erreichen können sinkst du zum Grund des Sees. Plötzlich bemerkst du deine Situation und versuchst die Wasseroberfläche zu erreichen. Alle Richtungen sehen gleich aus, du siehst kein Licht, dass dir den Weg weisen könnte.',
+    'situation': 'Als die Luft dir beinahe ausgeht erreichst du endlich ein Ufer. Mit letzer Kraft ziehst du dich hinauf und findest dich am Rande eines toten Waldes wieder. Du bist immer noch durstig, nach diesem Kraftakt schon fast am verdursten. Was wirst du als nächstes tun?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Den Wald betreten.',
+            'followups': [
+                {
+                    'ID': 1109,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Wasser aus dem See trinken.',
+            'followups': [
+                {
+                    'ID': 1112,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

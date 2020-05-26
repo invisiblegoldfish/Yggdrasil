@@ -1,0 +1,48 @@
+{
+    'ID' : 112,
+    'scenery': 'Direkt neben dir befindet sich eine Furche in der Rinde des Baumes, die sich wie ein weg hinaufschlängelt. Ohne weiter darüber nachzudenken beginnst du deinen Aufstieg. Er ist anstrengender als der Weg hinunter, aber trotzdem kommst du gut voran. Das tiefe Braun der Wurzeln weicht nach und nach dem Grün von Blättern. Um dich herum wird es heller und auch wärmer. Du genießt den Weg, jeder Schritt bereitet dir Freude. Ein Gefühl von Freiheit erfüllt dich, das mit jedem zurückgelegten Meter wächst. Die Möglichkeiten, die sich dir hier zwischen den Welten bieten, scheinen endlos.',
+    'situation': 'Du erreichst eine Astgabelung, wo möchtest du lang laufen?',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Zur Baumkrone',
+            'followups': [
+                {
+                    'ID': 113,
+                    'probability': 1,
+                    'conditions': [35, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 7002,
+                    'probability': 0.4,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Den Ast entlang',
+            'followups': [
+                {
+                    'ID': 14,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 4012,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 3018,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 115,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

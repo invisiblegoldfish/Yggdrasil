@@ -1,0 +1,18 @@
+{
+    'ID' : 5,
+    'scenery': 'Als du bei der Ebene Wigrid ankommst, tobt bereits die Schlacht. Die Toten erstehen wieder auf und kämpfen. In der Ferne erahnst du deinen Bruder Jörmungandr, aber du schenkst ihm keine weitere Beachtung. Du hast Odin gefunden. Immer wieder versperrt dir jemand den Weg und es dauert viel zu lange, bis du Odin erreicht hast, doch schließlich stehst du vor ihm. Du öffnest das Maul, in das Tyr einst seine Hand legte, dein Oberkiefer reicht bis zu den Sternen, dein Unterkiefer berührt den Boden. So verschlingst du Odin. Hinter dir hörst du einen Schrei. Du drehst dich um und erblickst Vidar, Odins Sohn. Mit erhobenem Schwert rennt er auf dich zu. Zu spät. Die Klinge bohrt sich in dein Herz. Du fällst zu Boden. Doch das hat keine Bedeutung. Du bist frei, das allein zählt.',
+    'situation': '',
+    'area': 21,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

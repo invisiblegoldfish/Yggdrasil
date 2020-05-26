@@ -1,0 +1,18 @@
+{
+    'ID' : 9,
+    'scenery': 'In bester Laune machen die Asen sich auf den Heimweg. Sie sind die schlausten, dessen sind sie sich nun sicher. Ungeduldig wartest du, während sie sich entfernen. Immer wieder denkst du, der richtige Zeitpunkt wäre gekommen, doch dann dreht sich noch einmal einer von ihnen um und lacht dich aus. Dann kannst du es nicht mehr aushalten. Du springst auf und rennst ihnen nach. Es dauert ein paar Sekunden, bis sie dich bemerken. Dann herrscht Chaos. Asen rennen auf dich zu, andere laufen weg. "Nicht stark genug?", brüllst du, während du nach ihnen schnappst. Jemand schlägt mit einer Axt nach dir, doch du weichst aus. Du willst Odin erreichen. Odin, dessen Idee es war, dich zu fesseln, Odin, der dir deine Freiheit nehmen wollte. Zwei starke Hände packen dich und fordern deine Aufmerksamkeit. Hasserfüllt wendest du dich Tyr zu, der dich festhält. "Lass mich los", knurrst du. Doch seine Hände krallen sich nur noch fester in dein schwarzes Fell. Mit einem Ruck reißt du dich los und siehst dich um. Odin ist nirgends zu blicken und auch die anderen Asen sind verschwunden. "Wo seid ihr?", schreist du. Feiglinge! Dann wendest du dich wieder Tyr zu und reißt das Maul auf. Er hechtet zur Seite, aber du erwischst seinen Arm. Mit einem Schrei geht er zu Boden, wo du ihn blutend zurücklässt.',
+    'situation': 'Du willst unbedingt Rache nehmen. Wie fährst du fort?',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Odin suchen',
+            'followups': [
+                {
+                    'ID': 11,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 1002,
+    'scenery': 'Du stehst von deinem Platz auf, um zu deiner Mutter zu gelangen. Trotz der nun starken Turbulenzen erreichst du schließlich stolpernd den Sitz deiner Mutter. Wie schon vor einer Stunde schläft Mutter tief und fest. Du weckst sie und sie merkt sofort, dass etwas nicht stimmt. Sie setzt dich auf den Sitz ihr gegenüber und schnallt dich an, auch sie setzt sich und sagt: "Svenja! Schließ die Augen Liebes!". Wie immer tust du was Mutter sagt, schließt die Augen und hälst dir mit deinen Händen die Ohren zu. Für ein paar Minuten wird es still um dich. Alles was du spürst ist das rütteln des Jets und der Gurt, der gegen deinen Bauch drückt. Die Luft um dich herum scheint immer knapper zu werden und deine Angst immer größer, als du es kaum noch aushalten kannst, schläfst du ein...',
+    'situation': 'Nach einiger Zeit merkst du, wie du langsam wieder zu dir kommst...',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Augen öffnen',
+            'followups': [
+                {
+                    'ID': 1003,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    'ID' : 1114,
+    'scenery': 'Mutigen Schrittes und voller Hoffnung folgst du der Treppe in die Tiefen der Erde. Das eh schon schwache Licht Helheims schwindet immer mehr, desto tiefer du gehst. Schließlich, als das Licht fast erloschen ist, erreichst du eine Kammer. Als du die Kammer näher betrachtest bemerkst du am Ende dieser jemanden. Riesig und angsteinflössend sitzt sie auf einem Thron. "Was suchst du hier?", sagt eine Stimme, während die Person im Dunkeln langsam ins Licht tritt.',
+    'situation': 'Du erkennst sie nun, es ist Hel, die Herrin des Reiches Helheim. Sie sagt dir, dass du zu weit gegangen bist. Du hast zu tief geforscht und sollst nun Teil dieser Welt sein und für immer bleiben. Akzeptierst du ihr Urteil?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Kämpfen.',
+            'followups': [
+                {
+                    'ID': 1118,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Reden',
+            'followups': [
+                {
+                    'ID': 1117,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

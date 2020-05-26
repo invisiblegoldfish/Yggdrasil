@@ -1,0 +1,28 @@
+{
+    'ID' : 1109,
+    'scenery': 'Du begibst dich in den Wald, dabei hast du deine Umgebung stets im Auge. Du traust diesem Wald nicht, er ist leblos und trocken. Du siehst dich genau um während du den Wald durchquerst und erspähst nach einer Weile eine Vertiefung in der Ferne. Du siehst sie dir genauer an und entdeckst eine Treppe am Grund der Vertiefung. Sie führt dich weiter hinab, unter die Erde des Waldes. Du willst sie betreten als du plötzlich von seltsamen Geräuschen unterbrochen wirst.',
+    'situation': 'Die Treppe könnte dich an einen interessanten ort führen doch du möchtest auch herausfinden, was es mit den Geräuschen tief im Wald auf sich hat. Wolang wirst du gehen?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Die Treppe hinunter.',
+            'followups': [
+                {
+                    'ID': 1114,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }, 
+		   {
+            'text': 'Tiefer in Wald.',
+            'followups': [
+                {
+                    'ID': 1115,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

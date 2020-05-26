@@ -1,0 +1,18 @@
+{
+    'ID' : 111,
+    'scenery': 'Noch bevor du auch nur einen Schritt gemacht hast, schaut der Drache plötzlich auf. Sein ohrenbetäubendes Brüllen lässt deine Haare zu Berge stehen. Du willst dich umdrehen, wegrennen, aber mit einer einzigen Bewegung seines schlangenartigen Körpers ist das Ungeheuer bei dir. Bedrohlich ragt sein Körper über dir auf und noch einmal brüllt es. Dann reißt der Drache das Maul noch weiter auf und senkt den Kopf. Das letzte, was du siehst, sind seine blitzenden Zähne, die auf dich zukommen, dann ist alles vorbei.',
+    'situation': '',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}
