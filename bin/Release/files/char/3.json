@@ -1,0 +1,7 @@
+{
+    'name': 'Surtr',
+    'ID': 3,
+    'description': 'Du bist der Herrscher Muspellsheims, der mächtigste aller Riesen. Seit Anbeginn der Zeit wartest du in deinem Reich darauf, das Ende der Welten herbeizuführen.',
+    'skills': [100, 100, 100, 34, 47, 7, 11, 57],
+    'startstory': 2000
+}

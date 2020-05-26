@@ -1,0 +1,7 @@
+{
+    'name': 'Hödur',
+    'ID': 5,
+    'description': 'Du bist ein Sohn Odins. Schon immer standest du im Schatten deines Bruders Baldur, nicht zuletzt wegen deiner Blindheit, aber du liebtest ihn über alles. Durch einen Trick konnte Loki dich dazu bringen, ihn zu töten, woraufhin dein eigener Vater dich hinrichten ließ.',
+    'skills': [43, 52, 45, 34, 21, 12, 40, 22],
+    'startstory': 3100
+}

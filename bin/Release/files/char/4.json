@@ -1,0 +1,7 @@
+{
+    'name': 'Baldur',
+    'ID': 4,
+    'description': 'Du bist Odins liebster Sohn, der Gott des Lichts, des Guten und der Gerechtigkeit. Wo du auch hingehst, überall wirst du gemocht. Du lebst mit deiner Frau Nanna in Asgard, genau wie deine Eltern und deine Brüder Hödur und Hermodur.',
+    'skills': [100, 60, 41, 48, 39, 90, 74, 22],
+    'startstory': 3000
+}

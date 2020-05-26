@@ -1,0 +1,7 @@
+{
+    'name': 'Svenja Kraft',
+    'ID': 2,
+    'description': 'Du bist eine junge Frau. Als du 6 Jahre alt warst verschwand deine Mutter nach einem Flugzeugabsturz, wo du startest. Dein Vater war Archäologe und verbrachte seine Zeit seitdem mit der Suche nach deiner Mutter. Er starb bei einem seiner Ausflüge, was dich zur Erbin seines Vermögens, eures Anwesens und seiner Ideologien machte.',
+    'skills': [14, 41, 12, 76, 48, 82, 81, 0],
+    'startstory': 1001
+}

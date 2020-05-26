@@ -1,0 +1,7 @@
+{
+    'name': 'Thor',
+    'ID': 0,
+    'description': 'Du bist ein Gott und lebst in Asgard. Als einziger bist du stark genug, den Hammer Mjölnir, welcher dir von den Zwergen geschenkt wurde zu schwingen und wirst überall für deine Kraft bewundert.',
+    'skills': [70, 68, 100, 42, 37, 63, 41, 50],
+    'startstory': 4000
+}

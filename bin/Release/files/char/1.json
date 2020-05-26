@@ -1,0 +1,7 @@
+{
+    'name': 'Fenrir',
+    'ID': 1,
+    'description': 'Du bist ein Sohn von Loki und der Riesin Angrboda und lebtest glücklich mit ihnen und deinen Geschwistern Hel und Jörmungandr. Doch die Asen fürchteten sich vor dir und brachten dich nach Asgard, um dich besser im Blick zu haben. Tag um Tag bist du weiter gewachsen, bis du ein riesiger schwarzer Wolf warst.',
+    'skills': [81, 74, 92, 64, 87, 11, 26, 11],
+    'startstory': 2
+}
