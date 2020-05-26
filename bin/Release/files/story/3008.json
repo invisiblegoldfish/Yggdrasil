@@ -1,0 +1,18 @@
+{
+    'ID' : 3008,
+    'scenery': 'Nach dem Essen, bei dem es sich tatsächlich um ein außerordentliches Festmahl handelte – Braten und Fisch, dazu Bier und vorzüglichen Wein –, ziehst du dich in deine Gemächer zurück. Du fühlst dich wohl im Palast deiner Eltern und nimmst dir vor, sie noch häufiger zu besuchen. Schließlich scheinen auch die beiden sich an deiner Anwesenheit zu erfreuen. Müde lässt du dich aufs Bett fallen und bist fast augenblicklich eingeschlafen. Deine Träume führen dich erneut in die dunkle Höhle, wieder siehst du Hel vor dir. Und auch wenn du diesmal weißt, wer da mit dem Rücken zu dir steht, gehst du wieder auf sie zu, wie in Trance. Doch anders als beim letzten Mal kommst du dieses Mal von der Stelle, näherst dich ihr unaufhaltsam.',
+    'situation': 'Deine Beine bewegen sich wie von selbst, du bist nicht in der Lage stehen zu bleiben.',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Weitergehen',
+            'followups': [
+                {
+                    'ID': 3009,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

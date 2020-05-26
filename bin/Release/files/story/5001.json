@@ -1,0 +1,33 @@
+{
+    'ID' : 5001,
+    'scenery': 'Du machst dich auf den Weg in die Gebirge Jötunheims. Es wird ein kräftezehrender Marsch voller Gefahren werden, doch das ist dir bewusst. Überall könnten Schätze auf dich warten, Abenteuer, von denen noch lange erzählt werden wird, Kreaturen, die noch kein Auge zuvor erblickte. Du erklimmst den ersten Berg, er ist vergleichsweise klein. Oben angekommen spürst du die klirrende Kälte des Eiswindes. Die Aussicht ist atemberaubend. Die Welt liegt vor dir im schimmernden Rot des Sonnenuntergangs. Die Berge leuchten, als wären sie aus purem Gold. Die Flüsse glitzern wie Diamanten.',
+    'situation': 'Du stehst immer noch wie gebannt auf dem Berg und bewunderst das Naturspektakel.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Ein Lager suchen',
+            'followups': [
+                {
+                    'ID': 5003,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Weiterziehen',
+            'followups': [
+                {
+                    'ID': 5050,
+                    'probability': 1,
+                    'conditions': [40, 60, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 5051,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

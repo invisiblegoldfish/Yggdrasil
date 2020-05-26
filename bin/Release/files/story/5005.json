@@ -1,0 +1,48 @@
+{
+    'ID' : 5005,
+    'scenery': 'Du betrittst die Höhle und suchst nach einer Ecke zum Schlafen. Du findest einen besonders warmen Platz und legst dich hin. Doch plötzlich bewegt sich die Höhle. Du weißt nicht mehr, wo oben und wo unten ist. Nach einigen Sekunden merkst du, dass sich ein Riese neben dir befindet. Ein Riese, so groß wie du ihn noch nie gesehen hast, von so kräftiger Statur, dass er Bäume mit Leichtigkeit zerbrechen könnte. Er sieht dir in die Augen. Du siehst ihm in die Augen. "Wer wagt es, mich bei meinem Winterschlaf zu stören?", dröhnt es durch die Höhle.',
+    'situation': 'Der Riese guckt dich grimmig an und erwartet offensichtlich eine Antwort.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Den Riesen erschlagen',
+            'followups': [
+                {
+                    'ID': 5006,
+                    'probability': 1,
+                    'conditions': [40, 40, 70, 20, 30, 0, 0, 0]
+                },
+                {
+                    'ID': 5007,
+                    'probability': 0.8,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 5009,
+                    'probability': 1,
+                    'conditions': [90, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Dem Riesen gut zureden',
+            'followups': [
+                {
+                    'ID': 5008,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 20, 50, 0]
+                },
+                {
+                    'ID': 5007,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 5009,
+                    'probability': 1,
+                    'conditions': [90, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

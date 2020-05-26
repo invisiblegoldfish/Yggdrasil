@@ -1,0 +1,18 @@
+{
+    'ID' : 4015,
+    'scenery': 'Unterwegs nach Asgard kommt dir auf einmal ein Gedanke. “Loki”, sagst du. “Unsere Wege werden sich nun trennen. Nach dieser Schlacht kann ich nicht einfach zu Hause herumsitzen. Ich muss weitere Abenteuer erleben. Ich mache mich auf, die Welten zu erkunden.” Ihr verabschiedet euch voneinander und während er sich auf den Heimweg begibt, machst du dich auf zum Weltenbaum, der die neun Welten miteinander verbindet. Mehrere Tage lang marschierst du durch die Landschaft, ohne jemandem zu begegnen. Du glaubst schon fast, dich verirrt zu haben, als du ihn endlich erblickst.',
+    'situation': 'Majestätisch erhebt sich der riesige Baum vor dir und du machst dich bereit ihn zu erklimmen.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Yggdrasil betreten',
+            'followups': [
+                {
+                    'ID': 100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 3001,
+    'scenery': 'Das Schaukeln von Ringhorn hat dich ein wenig müde gemacht und so beschließt du, es dir auf dem Deck gemütlich zu machen. Du legst deinen Mantel ab und rollst ihn zusammen, dann lässt du dich nieder und bettest deinen Kopf darauf. Die Holzplanken unter dir sind warm und Sonnenstrahlen liebkosen dein Gesicht. Im einen Moment beobachtest du noch die Lichter, die vom Wasser reflektiert über das Deck tanzen, im nächsten bist du in einen tiefen Schlaf gesunken. Im Traum stehst du in einem dunklen Raum – oder vielleicht einer Höhle? Weiter hinten leuchtet ein schwaches Licht, aber hier herrscht Dunkelheit.',
+    'situation': 'Zu deiner Linken meinst du eine Frau zu erkennen, das einzige andere Lebewesen weit und breit.',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Auf sie zugehen',
+            'followups': [
+                {
+                    'ID': 3002,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

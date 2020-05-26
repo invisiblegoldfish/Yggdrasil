@@ -1,0 +1,18 @@
+{
+    'ID' :4001,
+    'scenery': 'Du begibst dich auf den Weg in den Wald, wo du schon seit einigen Tagen Bären jagen wolltest. Heute scheint der perfekte Tag dafür zu sein, du fühlst dich voller Tatendrang und Abenteuerlust. Und tatsächlich, schon nach kurzer Zeit entdeckst du am Fluss einen riesigen braunen Bären, der Fische fängt. Vorsichtig pirschst du dich an ihn heran. Allerdings bist du dabei wohl nicht so leise wie du dachtest, denn der Bär dreht sich um und knurrt. Auch in Ordnung. Du baust dich vor ihm auf und brüllst. Verwirrt weicht der Bär einen Schritt zurück. Mit einem Grinsen greifst du nach deinem Hammer. Doch – Mjölnir ist nicht du!',
+    'situation': 'Das war es also, was heute morgen fehlte. Du stößt einen Fluch aus. Ob du es auch ohne deine Waffe mit dem Bären aufnehmen kannst?',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Fliehen',
+            'followups': [
+                {
+                    'ID': 4002,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

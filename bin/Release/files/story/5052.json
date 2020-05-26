@@ -1,0 +1,18 @@
+{
+    'ID' : 5052,
+    'scenery': 'Der Eiswind ist kalt und grausam, doch nichts kann dich stoppen. Du könntest es doch mit jedem aufnehmen, da wird dir ein bisschen Wetter nichts anhaben können, denkst du. Ganz in Gedanken stolperst du und fällst hin. Dunkelheit umschließt dich. Du wachst auf. Warme Sonnenstrahlen begrüßen dich. Der Schneesturm ist vorüber, es ist ein schöner Tag. Du stehst langsam auf und schüttelst den Schnee ab. Ein merkwürdiger Klumpen liegt unter dir. Ein leichter Schmerz in deinem Fuß erinnert dich an den kleinen Unfall. Neugierig hebst du den Klumpen auf. Es ist pures Gold, so groß wie ein kleiner Kürbis.',
+    'situation': 'Etwas sprachlos stehst du auf einem kleinen Bergpfad.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Dich umschauen',
+            'followups': [
+                {
+                    'ID': 5010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 30, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

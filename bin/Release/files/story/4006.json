@@ -1,0 +1,28 @@
+{
+    'ID' : 4006,
+    'scenery': '“Auf gar keinen Fall”, lautet die Antwort der Göttin der Liebe. “Ich werde unter gar keinen Umständen einen hässlichen stinkenden Riesen zum Mann nehmen. Und überhaupt, was liegt mir schon an deinem Hammer? Du bist doch selbst schuld, wenn du nicht auf ihn aufpasst!” Damit hättest du nicht gerechnet. Es wirkte doch so einfach. Aber Argumente, mit denen du sie überzeugen könntest, fallen dir auch nicht ein. Ein anderer Plan muss her. “Wir könnten sie entführen”, flüsterst du Loki zu, als ihr wieder draußen seid. “Das halte ich für keine so gute Idee”, entgegnet dieser. “Ich glaube, einer von uns sollte sich als die Braut verkleiden und während der Feier schnappen wir uns dann Mjölnir und hauen ab.”',
+    'situation': 'Eigentlich warst du sehr überzeugt von deiner Idee, aber du musst schon zugeben, dass Lokis Pläne häufiger aufgehen als deine eigenen.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Dich verkleiden',
+            'followups': [
+                {
+                    'ID': 4007,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Loki verkleiden',
+            'followups': [
+                {
+                    'ID': 4014,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 3002,
+    'scenery': 'Mit beherzten Schritten näherst du dich der Frau. Deine Neugierde ist geweckt. Wer sie wohl sein mag? Und was sie hier zu suchen hat? Es scheint dir kein angenehmer Ort zu sein. Vielleicht kannst ihr ja helfen. Aber du kommst kaum der Stelle, immer noch ist sie weit entfernt. Es ist, als würde die Zeit anders verlaufen als sonst, alles geschieht unglaublich langsam und du kannst nicht beurteilen, wie lange du schon hier bist. Es könnten wenige Sekunden sein oder auch schon viele Jahre, keines von beiden würde dich überraschen. Nun dreht die Frau sich um, Stückchen für Stückchen, und obwohl die Distanz zwischen euch unüberbrückbar weit scheint, kannst du jedes noch so kleine Detail sehen. Ihr blasses Gesicht, umrahmt von schwarzen Haaren, ist wunderschön, ein geheimnisvolles Lächeln umspielt ihre roten Lippen.',
+    'situation': 'Immer dringender möchtest du wissen, was diese Frau hier verloren haben kann.',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Weitergehen',
+            'followups': [
+                {
+                    'ID': 3003,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

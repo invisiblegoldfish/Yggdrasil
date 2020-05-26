@@ -1,0 +1,18 @@
+{
+    'ID' : 4011,
+    'scenery': 'Daheim in Asgard staunen alle über die glorreiche Schlacht, von der du bis ins kleinste Detail berichtest. Mutig hast du deinen Hammer ergriffen und ganz allein Hunderte von Riesen niedergemetzelt. Das ist die Geschichte, die du erzählst. Loki hingegen beschreibt immer wieder haargenau das Brautkleid, das du getragen hast, und wie du vor Thrym einen Knicks gemacht hast. Die Asen lieben beide Geschichten. Doch trotzdem schwörst du dir eine Sache: Von nun an wirst du besser auf Mjölnir aufpassen.',
+    'situation': '',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

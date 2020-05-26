@@ -1,0 +1,18 @@
+{
+    'ID' : 3006,
+    'scenery': 'Du schenkst den Asen, die dich so herzlich empfangen haben, ein entschuldigendes Lächeln, dann gehst du hinter deiner Mutter her. Unterwegs trefft ihr viele Götter, die ihr alle grüßt und die alle glücklich scheinen euch zu treffen. Hin und wieder werdet ihr in Gespräche verwickelt, angenehme Gespräche über belanglose Dinge, und du freust dich über jedes einzelne davon. Eine Frau erzählt dir von ihren Kindern, die dich vor ein paar Tagen auf Ringhorn haben vorbeifahren sehen. Du erinnerst dich daran, wie sie dir zugewunken haben. Jemand anders berichtet von einer besonders guten Jagd vor ein paar Tagen und du beglückwünschst ihn dazu.',
+    'situation': 'Ewig könntest du so durch die Straßen ziehen und dich am Glück jener um dich erfreuen, doch jetzt habt ihr den Palast erreicht.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Ihn betreten',
+            'followups': [
+                {
+                    'ID': 3007,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

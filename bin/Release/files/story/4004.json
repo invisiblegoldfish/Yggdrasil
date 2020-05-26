@@ -1,0 +1,18 @@
+{
+    'ID' : 4004,
+    'scenery': 'Sif hat dich gebeten, auf dem Markt Äpfel zu kaufen, also wirst du das erledigen. Zugegeben, das ist eine Weile her und sie war sauer, als du es nicht getan hast, aber jetzt kannst du es ja machen. Jetzt denkst du daran. Oder waren es Birnen? Vielleicht solltest du beides holen. Unterwegs triffst du Frey und ihr beginnt zu plaudern. Doch auf einmal fragt er: “Thor, wo ist eigentlich dein Hammer?” Du greifst nach Mjölnir, aber da ist er nicht. “Thor? Du hast ihn nicht schon wieder verloren, oder?” Angestrengt denkst du nach. Wo hast du ihn zuletzt gesehen? War das gestern Abend? “Ich muss los”, sagt Frey, “aber sag Bescheid, wenn du Hilfe beim Suchen brauchst.”',
+    'situation': 'Du bleibst allein zurück. Wann hattest du deinen Hammer zuletzt? Und wichtiger noch, wie findest du heraus, wo er jetzt ist?',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Loki fragen',
+            'followups': [
+                {
+                    'ID': 4003,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 3018,
+    'scenery': 'Du folgst dem Verlauf des Astes vor dir und erblickst eine sonderbare Luftspiegelung. Ein Portal, denkst du, vermutlich führt es zurück nach Asgard. Kurz überlegst du, ob es wirklich schon an der Zeit ist zurückzugehen, doch dann denkst du an deine Mutter, die so viel für dich getan hat und dich sicher sehen möchte. Tatsächlich wirst du überschwänglich begrüßt bei deiner Rückkehr, von deiner Mutter genau wie von allen anderen Göttern. Alle Asen wollen wissen, ob die Gerüchte stimmen und du tatsächlich unverwundbar bist, sie lagern dir beinahe auf um zu fragen. Manchmal geben sie sich mit einem Ja zufrieden, meistens aber wollen sie einen Beweis sehen.',
+    'situation': 'Schließlich entscheidest du, allen zu zeigen, was Frigg für dich getan hat und zu diesem Zweck ein Fest zu veranstalten.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Deine Unsterblichkeit beweisen',
+            'followups': [
+                {
+                    'ID': 3015,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

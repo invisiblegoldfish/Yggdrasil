@@ -1,0 +1,18 @@
+{
+    'ID' : 4005,
+    'scenery': 'Eine Zeit lang bleibst du im Stall, doch dann beschließt du nach Hause zu gehen. Es war ein ereignisreicher Morgen und du hast wieder riesigen Hunger. Zu deiner Freude hat deine Frau Sif bereits ein Mittagessen vorbereitet, auf das du dich gierig stürzt, kaum dass du da bist. Du bist noch nicht einmal fertig mit dem Essen – was zugegebenermaßen eine Weile dauert bei den Mengen, die du in dich hinein schaufelst –, da kommt Loki schon zurück. “Also”, fängt er wichtigtuerisch an. “Eigentlich war es ganz einfach herauszufinden, wo Mjölnir ist. Für mich jedenfalls. Jeder andere hätte sicher Ewigkeiten gebraucht.” Mit einem Grunzen gibst du ihm zu verstehen, dass er zum Punkt kommen soll. Er verdreht die Augen. “Na gut. Der Riese Thrym hat ihn gestohlen, während du geschlafen hast. Er ist bereit ihn dir zurückzugeben, wenn er dafür Freya zur Frau bekommt.”',
+    'situation': 'Das sind fabelhafte Neuigkeiten, nun gilt es nur noch Freya zu überzeugen, den Riesen zu heiraten.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Sie darum bitten',
+            'followups': [
+                {
+                    'ID': 4006,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

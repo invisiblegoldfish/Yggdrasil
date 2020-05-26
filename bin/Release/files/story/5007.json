@@ -1,0 +1,18 @@
+{
+    'ID' : 5007,
+    'scenery': 'Ohne eine Antwort abzuwarten greift dich der Riese an. Er ist stärker als du, das merkst du sofort. Seine Schläge brechen deine Knochen. Du verlierst die Orientierung. Mit jedem Schlag des Riesen bebt die Welt um dich herum. Du schmeckst Blut. Der Riese scheint unermüdlich auf dich einschlagen zu können. Er zeigt keine Gnade. Ist das dein Ende? Eine Höhle in Jötunheim? Wird man dich jemals finden, jemals deine Geschichte erzählen?',
+    'situation': '',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

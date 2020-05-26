@@ -1,0 +1,18 @@
+{
+    'ID' : 5006,
+    'scenery': 'Ohne ein Wort zu sagen greifst du den Riesen an. Damit hat er nicht gerechnet. Er kann sich kaum wehren, da hast du ihn schon niedergestreckt. Die Erde bebt, als sein Körper zu Boden fällt. Blut sprudelt wie eine Fontäne aus seinem Kopf. Der Riese hat dich unterschätzt. Du nimmst die Felle, die er bei sich trug, und machst es dir bequem. Sofort schläfst du ein. Am nächsten Morgen fühlst du dich gut ausgeruht. Der tote Riese liegt noch immer neben dir. Du verlässt die Höhle und blickst über die weiße, schneebedeckte Landschaft.',
+    'situation': 'In der Nacht hat es geschneit, du fühlst dich aber kräftig genug um weiter zu klettern.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Weiterziehen',
+            'followups': [
+                {
+                    'ID': 5010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

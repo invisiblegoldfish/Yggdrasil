@@ -1,0 +1,18 @@
+{
+    'ID' : 3003,
+    'scenery': 'Du beschleunigst deine Schritte, hast jedoch nicht das Gefühl, dass es etwas bringt. Im Gegenteil, du fühlst dich, als bewegtest du dich auf der Stelle. Noch immer dreht die Frau sich um – langsam, ganz furchtbar langsam. Du versuchst einen Anhaltspunkt zu finden, irgendein Anzeichen, dass du vorwärts kommst, aber da ist nichts. Dann schaust du wieder zur Frau und erschrickst. Mittlerweile ist sie so weit zu dir gedreht, dass du auch ihre andere Gesichtshälfte sehen kannst. Sie ist vollkommen entstellt. Narben ziehen sich durch schwarz verfärbte Haut, halb verrottete Zähne schauen aus einem lippenlosen Mund hervor.',
+    'situation': 'Du bleibst stehen, plötzlich unsicher, ob du sie wirklich erreichen willst. Denn jetzt weißt du, wer sie ist: Hel, Tochter Lokis und Herrscherin der Unterwelt.',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Hochschrecken',
+            'followups': [
+                {
+                    'ID': 3004,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

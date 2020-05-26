@@ -1,0 +1,28 @@
+{
+    'ID' : 3013,
+    'scenery': '“Mutter!”, rufst du freudig, als sie den Palast betritt. Du wirfst dich in ihre Arme, noch ehe sie die Zeit hat, ihren Mantel abzunehmen. “Baldur!”, erwidert sie liebevoll und umarmt dich fest. Doch ihr Lachen ist müde und als du sie loslässt, bist du erschrocken, wie erschöpft sie aussieht. “Ist alles in Ordnung?”, fragst du besorgt. Doch sie winkt ab. “Mach dir keine Gedanken, mein Sohn. Jetzt wird alles gut.” Und dann verrät sie dir, was sie das letzte Jahr über gemacht hat: “Ich habe die Welten bereist, mein Sohn, und habe dafür gesorgt, dass du nicht sterben wirst. Niemand kann dir etwas anhaben, nichts kann dich verletzen. Allen habe ich das Versprechen abgenommen, dass sie dir nichts tun werden. Jedem Gott, jedem Tier. Den Riesen wie den Fliegen. Selbst dem Wasser, den Bäumen, den Steinen. Alles wird gut.”',
+    'situation': 'Du bist überwältigt. Dass deine Mutter sich so um dich sorgt, erwärmt dir das Herz. Und nun musst du dich endlich nicht mehr um die Albträume kümmern.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Die Welten bereisen',
+            'followups': [
+                {
+                    'ID': 3014,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Den Asen davon erzählen',
+            'followups': [
+                {
+                    'ID': 3015,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

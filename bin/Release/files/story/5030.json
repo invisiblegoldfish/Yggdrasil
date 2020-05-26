@@ -1,0 +1,28 @@
+{
+    'ID' : 5030,
+    'scenery': 'Nach kurzer Zeit gelangst du an die Grenze eines dichten Waldes. Zu deiner Rechten befinden sich die Gebirge Jötunheims. Sie versprechen große Abenteuer. Vor dir erstreckt sich ein dichter Nadelwald. Er wirkt dunkel und unheimlich. In ihm könnten Kreaturen leben, die noch nie ein Auge erblickte. Mystische Entdeckungen und alte Magie könnten in ihm lauern. Über der Ebene hinter dir zieht der gigantische Adler seine Kreise. Er scheint fern, doch du fühlst dich von ihm beobachtet.',
+    'situation': 'In welche Richtung setzt du deine Reise fort?',
+    'area': 50,
+    'decisions': [
+        {
+            'text': 'Den Wald erkunden',
+            'followups': [
+                {
+                    'ID': 5031,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }       
+            ]
+        },
+        {
+            'text': 'Die Berge erkunden',
+            'followups': [
+                {
+                    'ID': 5001,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }       
+            ]
+        }
+    ]
+}

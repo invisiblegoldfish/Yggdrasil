@@ -1,0 +1,28 @@
+{
+    'ID' : 5004,
+    'scenery': 'Du machst es dir in der Höhle bequem. In einer geschützten Ecke legst du dich hin und schläfst sofort ein. Es war ein anstrengender Tag. Trotz des harten Bodens erholst du deine Kräfte gut und bist am nächsten Morgen ausgeruht und voller Energie. Die Welt der Riesen will von dir erkundet werden. Du verlässt die Höhle. Eine Wand aus Licht kommt dir entgegen. Für einen kurzen Augenblick siehst du nichts, doch dann gewöhnen sich deine Augen an die Helligkeit. Es hat geschneit und die Sonne strahlt über die weiße Landschaft.',
+    'situation': 'Du stehst auf dem Gipfel eines Berges und blickst über die schneebedeckte Landschaft.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Die Berge erkunden',
+            'followups': [
+                {
+                    'ID': 5010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Die Täler erkunden',
+            'followups': [
+                {
+                    'ID': 5002,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

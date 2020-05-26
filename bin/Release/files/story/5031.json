@@ -1,0 +1,18 @@
+{
+    'ID' : 5031,
+    'scenery': 'Du arbeitest dich durch den dichten Wald. Deine Augen gewöhnen sich zwar langsam an die Dunkelheit, doch du kannst nur wenige Meter weit gucken. Jeder Schritt kostet dich Zeit, da der Boden uneben und voller Gestrüpp ist. Plötzlich hörrst du ein Grummeln, wie ein Donner in der Ferne. Interessierst bewegst du dich in die Richtung des Geräusches. Nach einiger Zeit siehst du Licht und bist bald auf der anderen Seite des Waldes angekommen. Vor dir steht eine riesige Halle von komischer Architektur. Der Eingang ist eher rundlich und sieht fast aus wie das Innere eines Handschuhs. Bei dem Gedanken wird dir plötzlich kalt. Du schaust genauer hin und erkennst, dass was du soeben noch für ein Gebirge hielst, in Wahrheit ein enormer Riese ist.',
+    'situation': 'Der Riese scheint zu schlafen.',
+    'area': 50,
+    'decisions': [
+        {
+            'text': 'Zum Riesen schleichen',
+            'followups': [
+                {
+                    'ID': 5100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

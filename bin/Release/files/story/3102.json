@@ -1,0 +1,18 @@
+{
+    'ID' : 3102,
+    'scenery': '"Ich bin nicht wütend auf dich, Hödur. Das war ich nie. Du hast nichts falsch gemacht. Wenn irgendjemand die Schuld daran trägt, wie die Dinge gekommen sind, dann bin ich das. Ich hatte so große Angst zu sterben, dass ich unserer Mutter von dem Traum erzählt habe, wohlwissend, dass sie alles in ihrer Macht stehende tun würde, um meinen Tod zu verhindern. Ich habe sie ausgenutzt und nur dadurch ist der Traum in Erfüllung gegangen. Ich habe verdient, was passiert ist. Ich verzeihe dir, dass du mich getötet hast. Du wusstest es ja nicht einmal. Ich verzeihe euch allen. Ich hoffe bloß, dass ihr mir verzeihen könnt." Du hörst sein Schluchzen und auf einmal ist deine ganze Wut verschwunden. "Natürlich verzeihe ich dir!" Baldur greift nach deiner Hand und drückt sie, ein stummer Dank.',
+    'situation': 'Dann sagt er: “Ragnarök rückt näher. Bist du bereit, mit mir gemeinsam neu anzufangen?”',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Mit ihm gehen',
+            'followups': [
+                {
+                    'ID': 3103,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

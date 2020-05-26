@@ -1,0 +1,18 @@
+{
+    'ID' : 3012,
+    'scenery': 'Die Zeit, die du bei Odin in Asgard verbringst, genießt du sehr. Sicher, an einigen Tagen vermisst du es, auf deinem Schiff die Welt zu erkunden oder einsam die Wälder von Asgard zu durchstreifen. Liebend gern würdest du auch die anderen Welten wieder einmal besuchen. Aber hier fühlst du dich willkommen, fast jeden Tag hast du Besuch, meist sogar von mehreren Asen, und mehr noch, du fühlst dich geborgen. Und das ist gut so, denn des Nachts plagen dich immer noch die Albträume. Meist sagt Hel, die schöne und schreckliche Hel, dir, sie würde auf dich warten, manchmal irrst du aber auch allein durch die dunkle kalte Unterwelt und gelegentlich hast du solche Schuldgefühle im Traum, dass es schier unerträglich ist. Nach ein paar Wochen kommt deine Frau Nanna zu dir und ihr wohnt gemeinsam bei deinem Vater.',
+    'situation': 'Die Wochen, Monate ziehen ins Land, das Laub vergilbt, schließlich fällt Schnee und erst als er wieder geschmolzen ist, kommt Frigg von ihrer Reise zurück.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Sie begrüßen',
+            'followups': [
+                {
+                    'ID': 3013,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

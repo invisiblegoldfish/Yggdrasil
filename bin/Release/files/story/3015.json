@@ -1,0 +1,18 @@
+{
+    'ID' : 3015,
+    'scenery': 'Die Geschichte, wie Frigg durch die neun Welten zieht und für dich die Unsterblichkeit erlangt, macht unter den Asen innerhalb kürzester Zeit die Runde. Viele schwören sie an den verschiedensten Orten getroffen zu haben, andere zweifeln daran, dass sie all das wirklich getan haben soll. Jemand will gesehen haben, wie sie mit Utgardloki selbst verhandelt hat und ihm so schließlich ein Versprechen abgerungen hat, findet jedoch kaum jemanden, der ihm glaubt. Fest steht, dass ein Mythos geschaffen ist und dass alle wissen wollen, ob du tatsächlich unsterblich bist. Immer häufiger wird dir diese Frage gestellt und immer seltener geben sich die Leute mit einem einfachen Ja zufrieden. Beweise wollen sie haben, wollen mit eigenen Augen sehen, dass nichts dir mehr Leid zufügen kann.',
+    'situation': 'Schließlich beschließt du, ein Fest zu veranstalten, bei dem du allen beweisen kannst, was Frigg für dich getan hat.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Deine Unsterblichkeit beweisen',
+            'followups': [
+                {
+                    'ID': 3016,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

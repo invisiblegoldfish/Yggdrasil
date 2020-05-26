@@ -1,0 +1,18 @@
+{
+    'ID' : 5053,
+    'scenery': 'Du machst es dir unter der Fichte bequem. Jedenfalls den Umständen entsprechend. Der Baum ist groß und steht alleine. Er wirkt fehl am Platz. Der Stamm ist aber dick genug, um dir Schutz vor dem Wind zu bieten. Du baust einen kleinen Wall aus Schnee  und legst dich schlafen. Die Nacht ist kalt und rau, doch deine Träume erfüllen dich mit Wärme. Du bist ein Abenteurer, ein Entdecker, der Eroberer Jötunheims. Vergessene Schätze und ungeahnte Reichtümer wirst du finden. In allen Welten wird man von dir sprechen, deinen Namen rufen. Du wachst auf. Die Sonne scheint und der Wind hat nachgelassen.',
+    'situation': 'Du rappelst dich auf und schüttelst den Schnee ab.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Dich umschauen',
+            'followups': [
+                {
+                    'ID': 5010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 30, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

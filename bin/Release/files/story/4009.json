@@ -1,0 +1,18 @@
+{
+    'ID' : 4009,
+    'scenery': 'Das Buffet ist riesig, scheinbar wurden keine Mühen gescheut für die Hochzeit. Es gibt mehr Speisen als selbst du verschlingen könntest, was dich aber nicht davon abhält, es zu versuchen. Misstrauisch wirst du beobachtet, während du ein ganzes Schwein verschlingst. “Sie war so aufgeregt wegen der Hochzeit, dass sie sieben Tage lang nichts essen konnte”, erklärt Loki. Doch Thrym scheint belustigt. “Mir gefällt dein Appetit”, sagt er zu dir. “Wenn ich nur dein Gesicht sehen könnte…” “Noch nicht!”, unterbricht Loki wieder. “Aber… könnten wir vielleicht das Hochzeitsgeschenk sehen?” Thrym betrachtet ihn argwöhnisch. “Das Hochzeitsgeschenk wird nach der Hochzeit überreicht.” Loki schenkt ihm ein reizendes Lächeln. “Aber natürlich. Wir wollen es nur sehen. Ich bin mir sicher, mit der Aussicht darauf ginge die Zeremonie viel schneller und du könntest viel eher Freyas Gesicht sehen.”',
+    'situation': 'Auf Thryms Zeichen hin wird der Hammer herbeigeschafft, fünf Riesen sind notwendig um ihn zu tragen, so schwer ist er.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Den Hammer packen',
+            'followups': [
+                {
+                    'ID': 4010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

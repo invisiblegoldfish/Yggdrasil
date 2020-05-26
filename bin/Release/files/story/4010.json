@@ -1,0 +1,28 @@
+{
+    'ID' : 4010,
+    'scenery': 'Du springst auf und reißt dir den Schleier vom Gesicht. Ein erschrockenes Keuchen geht durch die Menge. “Es ist Thor!”, schreit jemand, doch da hast du dir deinen Hammer bereits geschnappt und den ersten Riesen erschlagen. Die fünf Riesen, welche Mjölnir gebracht haben, schauen dich völlig verdattert an. Keiner von ihnen hat den Hauch einer Chance. Bevor sie sich wehren könnten, hast du sie schon niedergestreckt. Es ist ein Kampf ganz nach deinem Geschmack: Mjölnir in deiner Hand und Gegner, so weit das Auge reicht. Einen nach dem anderen mähst du sie nieder, hoch erfreut etwas zu tun zu haben. Schließlich stehst du vor Thrym. “Lass dir das eine Lehre sein”, sagst du ihm, dann zerschlägst du ihm mit deinem Hammer den Schädel. “Oh, und ich werde dich nicht heiraten”, fügst du noch hinzu, obwohl er bereits tot ist.',
+    'situation': 'Und gemeinsam mit Loki, der das Kämpfen dir überlassen hat wie du ihm vorhin das Sprechen, machst du dich auf den weiten Weg zurück.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Nach Asgard',
+            'followups': [
+                {
+                    'ID': 4011,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Nach Yggdrasil',
+            'followups': [
+                {
+                    'ID': 4015,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

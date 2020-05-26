@@ -1,0 +1,18 @@
+{
+    'ID' : 3005,
+    'scenery': 'Am Steg steht eine ganze Traube von Göttern, die dich erwarten. Da sind kichernde Frauen, die erröten, als du ihnen zuzwinkerst, Fischer, schon seit einiger Zeit zurück von der Arbeit, eigens geblieben, um einen Blick auf dich zu erhaschen, enge Freunde wie Leute, die du noch nie in deinem Leben gesehen hast, und natürlich, ganz vorne, deine Mutter Frigg. Strahlend nimmt sie dich in ihre Arme, kaum dass du an Land trittst. “Baldur, mein Sohn! Lass dich anschauen!” Sie tritt einen Schritt zurück und betrachtet dich mit leuchtenden Augen. “Du siehst wunderbar aus, ganz wunderbar! Komm, lass uns in den Palast gehen. Dein Vater wird sicher auch bald da sein, als er gehört hat, dass du zu Besuch kommst, ist er sofort aufgebrochen.”',
+    'situation': 'Und mit diesen Worten wendet sie sich zum Gehen.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Ihr folgen',
+            'followups': [
+                {
+                    'ID': 3006,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

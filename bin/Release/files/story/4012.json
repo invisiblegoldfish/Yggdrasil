@@ -1,0 +1,18 @@
+{
+    'ID' : 4012,
+    'scenery': 'Plötzlich beginnt der Baum zu beben und wackeln. Das kann nur eines bedeuten: Ragnarök, die Götterdämmerung, hat begonnen. Die Welten werden in einer einzigen riesigen Schlacht untergehen und dann neu entstehen. Auf keinen Fall darfst du das verpassen. So schnell deine Beine dich nur tragen, rennst du zur Ebene Wigrid, wo bereits gekämpft wird. Du hältst Ausschau nach einem würdigen Gegner und erblickst Jörmungandr, die Midgardschlange. Sie ist nicht mehr um die Welt geschlungen, sondern hat den Ozean verlassen und versprüht ihren giftigen Speichel auf das Schlachtfeld.',
+    'situation': 'Dir ist bewusst, dass die Welten untergehen werden, aber das heißt noch nicht, dass du das hier mit ansehen kannst.',
+    'area': 21,
+    'decisions': [
+        {
+            'text': 'Angreifen',
+            'followups': [
+                {
+                    'ID': 4013,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

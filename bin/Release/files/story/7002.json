@@ -1,0 +1,18 @@
+{
+    'ID' : 7002,
+    'scenery': 'Gut gelaunt kletterst du weiter. Die Luft ist warm, angenehm und riecht süßlich. Doch dann passiert es. Wie in Trance bist du weitergeklettert und hast dich verschätzt. Da wo du einen Ast vermutetest, ist gar keiner. Du befindest dich in freiem Fall. Die Welten ziehen an dir vorbei. In deinem Fall verletzen dich Äste, du schaffst es aber nicht dich an einem festzuhalten. Ein größerer Ast trifft am Kopf. Alles wird schwarz.',
+    'situation': '',
+    'area': 30,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

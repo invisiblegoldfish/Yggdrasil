@@ -1,0 +1,28 @@
+{
+    'ID' : 5000,
+    'scenery': 'Du erblickst Jötunheim, die östlich gelegene Welt der Riesen. Vor dir erstrecken sich Täler und Gebirge, weiter und mächtiger als jedes Tal und Gebirge, das du je erblickt hast. Aus den Gebirgen sprudeln Flüsse mit kristallklarem Wasser, welche sich durch die Täler winden und am Horizont verschwinden. Alles wirkt groß und kalt. Du merkst sofort, dass die Bewohner dieser Gegend stark und abgehärtet sein müssen. Trotz des ungemütlichen ersten Eindrucks strahlt dieser Ort eine geheimnisvolle Aura aus, welche Abenteurer immer wieder anlockt.',
+    'situation': 'Die Welt Jötunheim wartet darauf erkundet zu werden. Wie fährst du fort?',
+    'area': 50,
+    'decisions': [
+        {
+            'text': 'Die Berge erkunden',
+            'followups': [
+                {
+                    'ID': 5001,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Die Täler erkunden',
+            'followups': [
+                {
+                    'ID': 5002,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

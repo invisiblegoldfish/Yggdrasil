@@ -1,0 +1,18 @@
+{
+    'ID' : 7001,
+    'scenery': 'Das Eichhörnchen ist schnell, doch du bist schneller. Nur noch wenige Meter und du hast es erreicht. Mit einer gekonnten Bewegung schwingt sich das Eichhörnchen auf einen Ast. Du bemerkst den riesigen Baum erst jetzt, so fokussierst warst du auf das kleine Tier. Und noch etwas bemerkst du erst jetzt: den Abgrund vor dir. Du wirfst dich zu Boden um abzubremsen, doch es ist zu spät. Der Wind rauscht um dich herum. Du befindest dich in freiem Fall. Die Schlucht ist so tief, dass du den Boden nicht ausmachen kannst. Du wunderst dich, wann und wo du wohl unten ankommst…',
+    'situation': '',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

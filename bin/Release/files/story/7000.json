@@ -1,0 +1,18 @@
+{
+    'ID' : 7000,
+    'scenery': 'Thor guckt dich wütend an und verliert schließlich die Beherrschung. Mit einem Kampfschrei geht er auf dich los. Du kannst kaum reagieren, da spürst du schon den Schlag. Es ist, als ob die Welt dich getroffen hätte. Alles ist dunkel. Du kannst nichts mehr hören, sehen und fühlen. Das Einzige, was dir bleibt, ist ein saurer Geschmack. Wie konnten dich die Asen nur so betrügen? Du hast doch nie etwas Falsches getan.',
+    'situation': '',
+    'area': 20,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

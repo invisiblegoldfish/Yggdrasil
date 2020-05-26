@@ -1,0 +1,18 @@
+{
+    'ID' : 3011,
+    'scenery': 'Den ganzen Vormittag verbringst du in deinen Gemächern, bis dein Vater zu dir kommt. Auf deine Frage hin berichtet er dir, dass Frigg auf eine Reise aufgebrochen sei, eine lange Reise, wie sie gesagt habe, und dass du bitte im Palast bleiben sollest, bis sie zurück sei. Außer sich vor Sorge sei sie gewesen und nun frage er sich, was los sei. Einen Moment zögerst du, schließlich möchtest du deinen Vater nicht beunruhigen, doch dann beschließt du, ihm von deinem Albtraum zu erzählen. Als du fertig bist, nickt Odin bedächtig. “Sei unbesorgt, Baldur,” sagt er schließlich nach langem Nachdenken. “Ich bin mir sicher, deine Mutter hat einen guten Plan. Und so lange kannst du natürlich liebend gern hier bleiben!”',
+    'situation': 'Lächelnd dankst du deinem Vater und willigst ein, ihn auf einen Spaziergang durch die Gärten zu begleiten.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Warten',
+            'followups': [
+                {
+                    'ID': 3012,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

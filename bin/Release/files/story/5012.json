@@ -1,0 +1,18 @@
+{
+    'ID' : 5012,
+    'scenery': 'Nach einem kurzen Marsch stehst du am Fuße des gigantischen Baumes. Die Wurzel sind so dick und mächtig, dass man sie für Gebirge halten könnte. Unvorstellbar, dass ein Baum die Welten verbinden könnte. Und doch stehst du vor ihm, unfähig die nächsten Äste, geschweige denn die Krone erkennen zu können. Du fühlst, dass es an der Zeit ist zurück zu gehen. Eine andere Welt ruft dich.',
+    'situation': 'Du widmest Jötunheim einen letzten Blick.',
+    'area': 50,
+    'decisions': [
+        {
+            'text': 'Den Baum erklimmen',
+            'followups': [
+                {
+                    'ID': 100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

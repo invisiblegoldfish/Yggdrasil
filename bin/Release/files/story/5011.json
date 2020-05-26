@@ -1,0 +1,18 @@
+{
+    'ID' : 5011,
+    'scenery': 'Der Aufstieg geht gut voran. Die Sonne scheint dir in den Rücken und du fühlst dich einfach großartig. Doch plötzlich löst sich der durch die Sinne aufgewärmte Schnee. Eine riesige Lawine löst sich direkt vor dir. Du hast Glück nicht unter der Lawine zu sein, doch die Schneemassen ziehen dich mit ins Tal. Etwas verloren rutschst du der Lawine hinterher. Nach wenigen Minuten und mit vielen Blessuren kommst du unten an. Ein erneuter Aufstieg scheint von der aktuellen Position aus unmöglich. Du trittst etwas Geröll beiseite und kletterst auf einen kleinen Felsen, um dir einen Überblick zu beschaffen.',
+    'situation': 'Direkt vor dir siehst du Yggdrasil. War die Lawine die dich hierher brachte ein Zufall?',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Zum Weltenbaum gehen',
+            'followups': [
+                {
+                    'ID': 5012,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

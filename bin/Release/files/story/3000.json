@@ -1,0 +1,18 @@
+{
+    'ID' : 3000,
+    'scenery': 'Langsam treibt Ringhorn über den breiten Fluss, eine leichte Brise spielt in deinen Haaren und das Wasser glitzert im Sonnenlicht. Du genießt die Wärme, badest dich darin, während die Landschaft an dir vorüber zieht. Am Ufer stehen Tiere, die in deiner Nähe sein wollen, Eichhörnchen wie Bären, Rehe wie Wölfe, alle friedlich beisammen. Schon seit einiger Zeit begleitet dich ein Schwarm von Fischen, schwimmt neben deinem Schiff her ohne zu ermüden. In einem fort lächelst du, froh in dieser wundervollen Welt zu leben, und wann immer dein Blick den eines anderen Lebewesen triffst, weißt du, dass es diese Freude teilt. Du siehst die Schönheit um dich herum und bist unsagbar glücklich.',
+    'situation': 'Es wird noch ein paar Stunden dauern, bis du den Palast erreichst und der Fluss birgt keine Gefahren. Du kannst das Schiff einfach treiben lassen.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Ein Nickerchen machen',
+            'followups': [
+                {
+                    'ID': 3001,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

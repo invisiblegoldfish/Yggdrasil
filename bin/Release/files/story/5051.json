@@ -1,0 +1,18 @@
+{
+    'ID' : 5051,
+    'scenery': 'Du machst einige Schritte. Du spürst die beißende Kälte nun in allen Körperteilen. Die tiefschwarze Dunkelheit umarmt dich. Nirgends ist Licht. Deine Sinne sind vom starken Wind betäubt. Du fühlst, wie dich deine Kräfte verlassen. Alles, was du willst, ist ein Schlafplatz. Ein gemütlicher Schlafplatz neben einem Feuer. Du willst einfach nur schlafen…',
+    'situation': '',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 3004,
+    'scenery': 'Mit einem Schrei fährst du hoch. Die Sonne scheint auf dich herab, Vögel zwitschern und der Fluss plätschert leise vor sich hin. Der Kontrast zu deinem Albtraum könnte nicht größer sein. Vielleicht liegt es daran, dass die Erinnerung daran bereits verschwimmt, aus deinem Gedächtnis zu sickern scheint. Zurück bleibt lediglich ein leicht mulmiges Gefühl, wie eine leise Warnung, dass etwas nicht stimmt. Deine Fahrt den Fluss entlang aber geht weiter oder nähert sich vielmehr ihrem Ende, wie dir jetzt auffällt. Du stehst auf und gehst zum Bug, um zu sehen, wie weit dein Weg noch ist.',
+    'situation': 'Überrascht stellst du fest, dass du dein Ziel wohl schon in wenigen Minuten erreichen wirst.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Zum Anlegen bereit machen',
+            'followups': [
+                {
+                    'ID': 3005,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

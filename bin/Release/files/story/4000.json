@@ -1,0 +1,28 @@
+{
+    'ID' : 4000,
+    'scenery': 'Es ist ein wunderschöner Morgen. Du erwachst, weil Sonnenstrahlen dein Gesicht kitzeln. Ein paar Minuten lauschst du dem Zwitschern der Vögel, ehe du dich streckst und aufstehst. Du bist unsagbar hungrig. Nach einem ausgiebigen Frühstück – von dem Essen, was du verschlungen hast, hätte man auch ein ganzes Dorf mehrere Tage lang ernähren können – fühlst du dich bereit für den Tag. Du suchst deine Sachen zusammen und willst gerade losgehen, als du inne hältst. Irgendetwas fehlt. Noch einmal gehst du im Kopf durch, was du brauchst. Aber du kommst beim besten Willen nicht darauf, was es sein könnte.',
+    'situation': 'Mit einem Schulterzucken gehst du hinaus. Du hast viel vor, da bringt es nichts, wenn du dir jetzt den Kopf zerbrichst. Was möchtest du zuerst erledigen?',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Zum Markt gehen',
+            'followups': [
+                {
+                    'ID': 4004,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Jagen gehen',
+            'followups': [
+                {
+                    'ID': 4001,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

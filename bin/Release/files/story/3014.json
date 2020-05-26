@@ -1,0 +1,18 @@
+{
+    'ID' : 3014,
+    'scenery': 'Ein paar Tage lang bleibst du noch bei deinen Eltern, während derer du fast jede deiner Stunden bei Frigg verbringst. Mal um Mal bedankst du dich bei ihr und fragst, was du im Gegenzug für sie tun kannst. Doch sie erwidert jedes Mal nur, dass sie bereits wunschlos glücklich sei, jetzt, da du nicht sterben wirst. Schließlich kommt der Tag, an dem du deine neue Freiheit auskosten willst und den Palast verlässt. Fröhlich verabschiedest du dich von deinen Eltern und reist gemeinsam mit Nanna auf Ringhorn ab. Nach einer Tagesreise habt ihr euer Heim erreicht. Doch anders als Nanna möchtest du noch weiter reisen und so trennen sich nun auch eure Wege. Mit einem Kuss sagst du deiner Frau auf Wiedersehen, dann segelst du weiter in Richtung des Weltenbaumes.',
+    'situation': 'Nach mehreren Tagen erreichst du die Stelle von Asgard, an der der Übergang zu Yggdrasil liegt. Die Luft vor dir schimmert wie ein Portal und du gehst andächtig darauf zu.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Yggdrasil betreten',
+            'followups': [
+                {
+                    'ID': 100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

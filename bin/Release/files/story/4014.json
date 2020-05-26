@@ -1,0 +1,18 @@
+{
+    'ID' : 4014,
+    'scenery': 'Loki gibt eine wahrlich entzückende Imitation von Freya ab, nachdem er sich verwandelt hat. Wenn du es nicht besser wüsstest, würdest du sagen, du hättest sie vor dir und nicht ihn. “Also, wir gehen zu Thrym, tun so, tun so, als würdest du ihn heiraten, nehmen uns den Hammer und gehen wieder”, fasst du euren Plan zusammen. Loki nickt. “Und du bist dir sicher, dass du dich nicht auch verkleiden willst?”, fragt er nach. Du winkst ab. “Ich begleite dich doch nur.” Doch wie sich herausstellt, wäre es vermutlich doch besser gewesen. Kaum erblicken euch die Riesen, stürzen sie sich auf euch. Ob sie die Falle ahnen oder sich einfach nur siegessicher sind, jetzt da du deinen Hammer nicht hast, ist nicht zu sagen. Doch unbewaffnet wie ihr seid, habt ihr keine Chance. Ihr kämpft heldenhaft, fallt jedoch beide in der Schlacht.',
+    'situation': '',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

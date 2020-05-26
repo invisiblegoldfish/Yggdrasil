@@ -1,0 +1,18 @@
+{
+    'ID' : 5009,
+    'scenery': 'Ohne eine Antwort abzuwarten greift dich der Riese an. Er ist stärker als du, doch du hältst seinen Schlägen stand. Er prügelt immer weiter auf dich ein. Sein schwerer Atem bebt durch die Höhle. Seine Schläge werden schwächer. Plötzlich hört er auf dich zu schlagen. Mit einem gewaltigen Beben kracht sein enormer Körper zu Boden. Er ist an Erschöpfung gestorben. Du nimmst die Felle, die er bei sich trug, und machst es dir bequem. Sofort schläfst du ein. Am nächsten Morgen fühlst du dich gut ausgeruht. Der tote Riese liegt noch immer neben dir. Du verlässt die Höhle und blickst über die weiße, schneebedeckte Landschaft.',
+    'situation': 'In der Nacht hat es geschneit, du fühlst dich aber kräftig genug um weiter zu klettern.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Die Berge erkunden',
+            'followups': [
+                {
+                    'ID': 5010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

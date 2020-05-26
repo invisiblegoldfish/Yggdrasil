@@ -1,0 +1,18 @@
+{
+    'ID' : 3103,
+    'scenery': 'Entschieden nickst du. Eine Weile noch sitzt ihr schweigend nebeneinander auf dem Steinboden, der schon seit langem immer wieder leicht bebt. Nun kannst du endlich sagen, woran es liegt: Ragnarök kommt. Die Götterdämmerung, während welcher die Welten untergehen, um dann neu zu entstehen. Das Ende ist erreicht. Baldur hilft dir auf und gemeinsam verlasst ihr Helheim. Eine neue Welt liegt vor euch, eine Zukunft, in der ihr beide neu anfangen könnt.',
+    'situation': '',
+	'area': 10,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

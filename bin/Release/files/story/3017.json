@@ -1,0 +1,18 @@
+{
+    'ID' : 3017,
+    'scenery': 'Deine Hand schießt zu deinem Hals, der furchtbar wehtut. Warmes Blut fließt über deine Finger. Plötzlich ist alles still. Mit dem Blick suchst du die Menge ab nach der Person, die das Geschoss geworfen haben muss. Du findest Hödur, deinen blinden Bruder Hödur, in der Hand mehrere angespitzte Mistelzweige. Einzig er scheint nicht zu verstehen, was passiert ist, ein verwirrtes Lächeln liegt noch auf seinen Lippen. Du fällst auf die Knie und schließlich ganz zu Boden. Deinen Leichnam bahrt man auf einem Schiff auf und noch während der Zeremonie stirbt Nanna an ihrem gebrochenen Herzen. Ganz Asgard trauert, Frigg ist untröstlich, die so unscheinbare Mistel ausgelassen zu haben und Odin lässt Hödur auf der Stelle hinrichten, auch wenn dieser behauptet angestiftet worden zu sein. Aber all das bringt dich auch nicht zum Leben zurück. Gemeinsam mit deiner Frau wirst du verbrannt.',
+    'situation': '',
+    'area': 60,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

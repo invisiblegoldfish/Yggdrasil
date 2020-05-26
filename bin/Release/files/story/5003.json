@@ -1,0 +1,38 @@
+{
+    'ID' : 5003,
+    'scenery': 'Du suchst nach einem Rastplatz. Schon bald findest du eine Höhle, welche ausreichend Platz für einen Riesen bieten würde. Der Eiswind des Gebirges ist nun so kalt, dass Wasser sofort gefriert. Die Sonne ist am Horizont verschwunden und eine tiefe Dunkelheit umarmt die Landschaft. Die Höhle würde Schutz vor dem Wind bieten, du weißt aber nicht, was dich in ihr erwartet. Eine seltsame Wärme strömt aus dem Dunkel der Höhle. Du kannst es nicht erklären, doch der schützende Ort kommt dir unheimlich und einschüchternd vor.',
+    'situation': 'Du stehst stehst vor dem Eingang der Höhle.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Die Höhle betreten',
+            'followups': [
+                {
+                    'ID': 5004,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 40, 0, 60, 0, 0]
+                },
+                {
+                    'ID': 5005,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Weiterziehen',
+            'followups': [
+                {
+                    'ID': 5050,
+                    'probability': 1,
+                    'conditions': [40, 60, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 5051,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

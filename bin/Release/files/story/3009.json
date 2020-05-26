@@ -1,0 +1,18 @@
+{
+    'ID' : 3009,
+    'scenery': 'Näher und näher kommst du Hel, die sich genau wie in deinem letzten Traum langsam zu dir umdreht. Zuerst erblickst du die schöne Hälfte ihres Gesichtes mit den vollkommenen Zügen, dann wird die andere Seite sichtbar, entstellt und furchterregend. Du möchtest stehen bleiben, umdrehen, so schnell wie möglich von hier entkommen, aber es ist nicht möglich. Stattdessen starrst du in ihr Gesicht, während in ihr Abscheu und Mitleid mit dieser armen Kreatur miteinander kämpfen. Etwas in dir sträubt sich, mit ihr zu sprechen, ist angewidert, doch gleichzeitig fragst du dich, ob sie vielleicht einfach nur missverstanden ist und jemanden braucht, der für sie da ist. Da hörst du auf einmal ihre leise Stimme: “Baldur. Ich erwarte dich.”',
+    'situation': 'Schweißgebadet erwachst du aus dem Albtraum. Ob es sich hierbei um eine Prophezeiung handelt?',
+    'area': 63,
+    'decisions': [
+        {
+            'text': 'Frigg davon erzählen',
+            'followups': [
+                {
+                    'ID': 3010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

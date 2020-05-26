@@ -1,0 +1,18 @@
+{
+    'ID' : 5008,
+    'scenery': 'Du musterst den Riesen und überlegst kurz. "Ich kam in diese Höhle, um den sagenumwobenen Höhlenriesen zu finden. Geschichten über deine Kraft hört man im ganzen Land", sagst du. Der Riese beruhigt sich. Er mustert dich neugierig. Ihr setzt euch zusammen in eine Ecke der Höhle und er erzählt dir Geschichten aus seiner Vergangenheit. Nach einigen Stunden voller erfundener Abenteuer schlaft ihr beide ein. Am nächsten Morgen wachst du vor dem Riesen auf. Um seinen Geschichten zu entkommen, verlässt du die Höhle schnell. Für einen kurzen Augenblick siehst du nichts, doch dann gewöhnen sich deine Augen an das grelle Licht. Es hat geschneit und die Sonne strahlt über die weiße Landschaft.',
+    'situation': 'Du stehst auf dem Gipfel eines Berges und blickst über die schneebedeckte Landschaft.',
+    'area': 51,
+    'decisions': [
+        {
+            'text': 'Die Berge erkunden',
+            'followups': [
+                {
+                    'ID': 5010,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

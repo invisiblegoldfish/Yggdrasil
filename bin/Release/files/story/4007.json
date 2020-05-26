@@ -1,0 +1,18 @@
+{
+    'ID' : 4007,
+    'scenery': 'Das Kleid sitzt viel zu eng, du kannst kaum laufen in den Schuhen und die Perücke droht jeden Moment von deinem Kopf zu fallen. Am schlimmsten aber ist der Schleier, er kratzt und versperrt dir die Sicht. Sollte euch jetzt jemand angreifen, würdest du es erst viel zu spät bemerken und ohne deinen Hammer würdet ihr den Kampf wahrscheinlich sogar verlieren. Du willst den Schleier zur Seite schieben, bloß für einen kleinen Moment, aber Loki schlägt deine Hand weg. “Oh nein, das wirst du nicht tun.” Er selbst hat sich in eine hübsche Frau in festliche Kleidung verwandelt, deine Brautjungfer. “Wir sind so gut wie da, jetzt darf dich bloß niemand erkennen. Denk dran, immer den Schleier vor dem Gesicht behalten. Und das Reden überlässt du auch besser mir.”',
+    'situation': 'Dann steht ihr vor dem Tor, was sich langsam für euch öffnet.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Eintreten',
+            'followups': [
+                {
+                    'ID': 4008,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

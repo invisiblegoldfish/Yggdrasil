@@ -1,0 +1,18 @@
+{
+    'ID' : 4013,
+    'scenery': 'Du rennst zu ihr und schlägst mit dem Hammer gegen ihren mächtigen Körper. Da senkt sie ihren riesigen Kopf und schaut dich aus hasserfüllten Augen an. Sie öffnet das Maul, ihre langen Zähne strecken sich dir entgegen. Gerade so kannst du ihr ausweichen. Bei ihrem nächsten Angriff bist du besser vorbereitet und triffst ihr Auge. Sie zischt vor Schmerzen und während sie sich noch windet, platzierst du einen weiteren Schlag. Ihr Schädel wird zerschmettert und sie regt sich nicht mehr. Doch ihr Gift hat dich getroffen und du spürst, wie alle Kraft dich verlässt. Mühsam schleppst du dich vorwärts, aber nach neun Schritten sinkst du zu Boden und stehst nicht wieder auf.',
+    'situation': '',
+    'area': 21,
+    'decisions': [
+        {
+            'text': 'Spiel beenden',
+            'followups': [
+                {
+                    'ID': 99999,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

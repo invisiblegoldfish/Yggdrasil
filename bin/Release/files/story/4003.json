@@ -1,0 +1,18 @@
+{
+    'ID' : 4003,
+    'scenery': 'Da kommt dir die zündende Idee: Loki wird wissen, was zu tun ist! Sofort machst du dich auf die Suche nach ihm. Nach einiger Zeit findest du ihn in Odins Stall bei dessen Pferd Sleipnir. Warum weißt du nicht, aber Loki hängt an dem achtbeinigen Tier und verbringt viel Zeit bei ihm. “Was kann ich für dich tun?”, fragt er und kann seine Belustigung kaum verbergen, als du ihm von deinem verlorenen Hammer erzählst. Das macht dich so wütend, dass du zum Schlag ausholst und selbst ohne Mjölnir ist Loki eingeschüchtert. “Schon gut, schon gut”, sagt er beschwichtigend, beide Hände gehoben zum Zeichen, dass er dir nichts tun wird. Als könnte er! “Ich werde mich sofort umhören und dir berichten, sobald ich weiß, wo dein Hammer ist.”',
+    'situation': 'Und mit diesen Worten lässt er dich im Stall zurück.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Warten',
+            'followups': [
+                {
+                    'ID': 4005,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 3100,
+    'scenery': 'Es ist schon eine Ewigkeit her, aber noch immer plagen dich die Schuldgefühle. Seit jenem verhängnisvollen Tag träumst du jede Nacht von der furchtbaren Stille, die herrschte, nachdem du den Pfeil geworfen hast. Hörst immer noch das Flüstern Lokis, der dir versichert, es wäre ein harmloser Spaß. Ein Mistelzweig, was solle denn schon passieren? Andere würden Streitäxte werfen. Alle würden sich köstlich amüsieren. Hereingelegt hat er dich mit seinen grausamen Lügen! Und wie ein Idiot hast du getan, was er wollte. Nie wirst du dir verzeihen können. Niemals. Deshalb auch hast du dich nie auf die Suche nach Baldur gemacht, obwohl du weißt, dass auch er hier in Helheim sein muss. Nein, stattdessen trauerst du um ihn, allein, immer allein, weil es niemanden gibt, der dir dein Verbrechen verzeihen könnte.',
+    'situation': 'Auf einmal hörst du ein Räuspern hinter dir. Jemand scheint mit dir sprechen zu wollen, doch es gibt niemanden, mit dem du sprechen willst.',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Die Person wegschicken',
+            'followups': [
+                {
+                    'ID': 3101,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

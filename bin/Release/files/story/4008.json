@@ -1,0 +1,18 @@
+{
+    'ID' : 4008,
+    'scenery': 'Erwartungsvolle Gesichter schauen euch entgegen, als ihr die Burg betretet. Ein Weg führt zwischen den Massen hindurch zu einem Thron, auf dem ein hässlicher stinkender Riese sitzt. Thrym. Kurz vor ihm bleibt ihr stehen. Loki versetzt dir einen Stoß und du machst einen ungeschickten Knicks. Die Riesen hinter euch beginnen zu tuscheln. “Irgendwie ist sie ganz schön groß.” “Ich dachte, sie wäre schlanker.” “Und warum verdeckt sie ihr Gesicht?” Thrym erhebt sich und es herrscht wieder Stille. “Seid willkommen”, begrüßt ihr euch. “Lasst uns sofort mit der Zeremonie beginnen. Aber kann ich vorher dein hübsches Gesicht sehen, Braut?” Und er greift nach dem Schleier. “Nein!”, unterbricht ihn Loki. “Es ist Tradition so. Und könnten wir vielleicht erst essen? Es war eine anstrengende Reise und wir müssen erst Kraft schöpfen.” Du nickst bekräftigend.',
+    'situation': 'Missbilligend schaut Thrym in die Runde, entscheidet sich dann aber, seiner Braut den Wunsch zu erfüllen.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Essen',
+            'followups': [
+                {
+                    'ID': 4009,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

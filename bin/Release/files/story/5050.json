@@ -1,0 +1,38 @@
+{
+    'ID' : 5050,
+    'scenery': 'Du machst dich auf in die Dunkelheit. Du Kälte beißt dich, doch du hältst stand. Entschlossen gehst du weiter, denn was konnte dich schon jemals stoppen? Der eiskalte Wind drückt dir mit voller Kraft entgegen und bringt Schnee mit sich, der nun kniehoch liegt. Aufgrund der Dunkelheit weißt du nicht genau wo du hinläufst, doch du merkst, dass es steil nach oben geht. Du willst den nächsten Berg erklimmen. Du kommst auf einem Plateau an. Hier steht eine Fichte, ganz allein, aber trotzdem stark wie ein Fels in der Brandung.',
+    'situation': 'Die Fichte würde dir etwas Schutz vor Wind und Schnee bieten.',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Lagern',
+            'followups': [
+                {
+                    'ID': 5053,
+                    'probability': 1,
+                    'conditions': [50, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 5051,
+                    'probability': 0.9,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Weiterziehen',
+            'followups': [
+                {
+                    'ID': 5052,
+                    'probability': 1,
+                    'conditions': [60, 70, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                    'ID': 5051,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

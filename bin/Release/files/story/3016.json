@@ -1,0 +1,18 @@
+{
+    'ID' : 3016,
+    'scenery': 'Das Fest ist ein großer Erfolg. Zahllose Gäste sind erschienen, zweifelsohne aus Neugierde. Alle wollen sie sehen, was du zu präsentieren hast. Doch auch jetzt schon amüsieren sie sich, tauschen Geschichten aus – größtenteils über die Wesen, mit denen Frigg auf ihrer Reise gesprochen haben muss – und lachen gemeinsam. Als der Zeitpunkt gekommen ist, an dem du  ihnen zeigen willst, dass du nun unverwundbar bist, hast du allerdings sofort ihre Aufmerksamkeit. Deine Idee ist denkbar einfach: Du forderst die Asen auf zu versuchen, dich mit Gegenständen zu verletzen. Einige Momente herrscht verblüfftes Schweigen, doch dann hebt jemand einen Stein auf und wirft ihn nach dir. Ohne die geringste Spur zu hinterlassen, prallt er ab. Ein Raunen geht durch die Menge, dann fliegen auf einmal mehr Geschosse durch die Luft. Steine, Waffen, Stöcke, ein Klavier. Nichts kann dir etwas anhaben.',
+    'situation': 'Die Stimmung ist ausgelassen, übermütig stürzen sich die Asen in das Spiel. Du lachst mit ihnen, froh die Ursache ihrer Freude zu sein. Doch da spürst du auf einmal einen stechenden Schmerz.',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Die Ursache suchen',
+            'followups': [
+                {
+                    'ID': 3017,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

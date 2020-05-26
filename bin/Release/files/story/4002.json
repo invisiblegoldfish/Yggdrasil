@@ -1,0 +1,18 @@
+{
+    'ID' : 4002,
+    'scenery': 'Du möchtest es nicht herausfinden. Das letzte Mal, dass du unbewaffnet gegen einen größeren Gegner gekämpft hast, ist nicht so gut ausgegangen. Sicher, das waren Riesen und sie waren in der Überzahl und gefesselt hatten sie dich auch. Aber jetzt gerade ist dir nicht danach, das Risiko einzugehen. Du kehrst um und rennst davon, den Bär dicht an deinen Fersen. Über Felsen, an Bäumen vorbei, durch ausgetrocknete Flussbetten, immer weiter führt die Verfolgungsjagd. Doch irgendwann merkst du, dass du deinen Vorsprung nicht nur ausgebaut hast, der Bär ist nirgends mehr zu entdecken. Ein wenig enttäuscht bleibst du stehen und lässt dich auf einem Felsen nieder.',
+    'situation': 'Dann überlegst du. Du musst Mjölnir wiederfinden, koste es, was es wolle. Aber wo kannst du mit deiner Suche anfangen?',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Loki fragen',
+            'followups': [
+                {
+                    'ID': 4003,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

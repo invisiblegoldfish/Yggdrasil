@@ -1,0 +1,28 @@
+{
+    'ID' : 5010,
+    'scenery': 'Gut gelaunt erklimmst du den nächsten Gipfel. Oben angekommen blickst du über die weite Landschaft. Du traust deinen Augen kaum. Im nächsten Tal liegt ein Riese, so groß wie du noch keinen Riesen gesehen hast. Sein Körper ist so gigantisch, dass er sich bis zum Horizont erstreckt. Er scheint zu schlafen. Neben ihm liegt eine enorme Tasche, in der du Reichtümer und Proviant vermutest. Die nächsten Berge sehen rauer und gefährlich aus, doch du fühlst dich kräftig und in der Lage, auch diese Gipfel zu erklimmen.',
+    'situation': 'Die Sonne scheint wärmend auf dich hinab. Du blickst über die weiten Täler und hohen Berge.',
+    'area': 52,
+    'decisions': [
+        {
+            'text': 'Weiter klettern',
+            'followups': [
+                {
+                    'ID': 5011,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        },
+        {
+            'text': 'Zum Riesen schleichen',
+            'followups': [
+                {
+                    'ID': 5100,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    'ID' : 3101,
+    'scenery': '“Lass mich allein”, sagst du unwirsch und erwartest, dass wer immer dort ist genau das tun wird. Doch nichts geschieht. “Geh weg. Ich will nicht mit dir reden.” Ein leises Lachen. Es klingt vertraut, wunderbar und gleichzeitig schrecklich vertraut. “Und trotzdem machst du genau das”, sagt Baldur. Dein geliebter Bruder. Den du getötet hast. “Was machst du hier?”, fährst du ihn an, wütend. Wütend auf dich selbst, weil du einen so schrecklichen Fehler gemacht hast. Wütend auf Loki, weil er dich hereingelegt hat. Wütend auf Frigg, weil die Mistel ihr zu unscheinbar erschien, um ihr ein Versprechen abzunehmen. “Ich will mich mit dir versöhnen.” Und wütend auf Baldur, weil der trotz allem immer noch so unfassbar lieb und gut und rein ist, dass er niemals hätte sterben dürfen.',
+    'situation': 'Baldur setzt sich neben dich auf den harten Steinboden. Du lässt es zu. Er hat dich gefunden und das mindeste, was du nun tun kannst, ist ihn reden zu lassen.',
+    'area': 10,
+    'decisions': [
+        {
+            'text': 'Baldur zuhören',
+            'followups': [
+                {
+                    'ID': 3102,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

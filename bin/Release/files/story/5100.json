@@ -1,0 +1,18 @@
+{
+    'ID' : 5100,
+    'scenery': 'Du pirschst dich an den schlafenden Riesen heran. Mit jedem Schritt dem du ihm näher kommst, wirkt er größer. Du bist grade an seinem Vorratsbeutel angekommen, dessen Inhalt wahrscheinlich ganze Dörfer ernähren könnte, da hörst du ein donnerndes Grunzen. Plötzlich bebt die Erde und der Riese beginnt sich zu erheben. Ohne darüber nachzudenken, versteckst du dich in einer Falte des Beutels. Wenige Sekunden später, pfeift der Wind um dich herum, als der Riese seinen Beutel aufhebt. Er scheint dich nicht bemerkt zu haben und läuft durch die Ebenen Jötunheims. In der Ferne erblickst du den Weltenbaum Yggdrasil. Du möchtest aus deiner Situation entkommen, nur noch weg von hier.',
+    'situation': 'Der Riese passiert einen hohen Baum, in dessen Krone du springst und heruntergleitest.',
+    'area': 50,
+    'decisions': [
+        {
+            'text': 'Zum Weltenbaum wandern',
+            'followups': [
+                {
+                    'ID': 5012,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }      
+    ]
+}

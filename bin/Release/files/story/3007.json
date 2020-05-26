@@ -1,0 +1,18 @@
+{
+    'ID' : 3007,
+    'scenery': 'Die Tür wird für deine Mutter und dich geöffnet und mit einem freundlichen Nicken tretet ihr ein. Wie immer verschlägt dir die Pracht des Saals vor dir die Sprache. Du bestaunst die hohen Decken, die kunstvoll geschmiedeten Fackelhalter, die breiten Treppen, die nach oben führen. Da ertönt eine Stimme: “Sohn! Wie schön dich zu sehen!” Vor dir steht Odin, dein Vater, sein eines Auge strahlt vor Freude. Seine beiden Raben Hugin und Munin sitzen auf seinen Schultern, flattern jedoch davon, als er dich in eine feste Umarmung zieht. “Ich freue mich auch euch zu sehen!”, entgegnest du und drückst ihn an dich. “Es ist wundervoll hier zu sein!”',
+    'situation': 'Odin löst die Umarmung und klopft dir auf die Schulter. “Lass uns etwas essen, wir haben ein Festmahl für dich zubereiten lassen!”',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Essen',
+            'followups': [
+                {
+                    'ID': 3008,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

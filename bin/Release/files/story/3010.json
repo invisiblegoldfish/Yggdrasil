@@ -1,0 +1,18 @@
+{
+    'ID' : 3010,
+    'scenery': 'Während du redest und deine Mutter aufmerksam zuhört, wird ihre Miene immer sorgenvoller. Als du deine Erzählung schließlich beendest, steht sie auf und beginnt unruhig auf und ab zu gehen. Zum Fenster. Und zurück. Zum Fenster. Und zurück. “Sie erwarte dich? Das hat sie gesagt?” Du nickst. Zum Fenster. Und zurück. Dabei murmelt sie leise vor sich hin, doch du kannst die Worte nicht ausmachen. Zum Fenster. Und zurück. “Weiter nichts?” Du schüttelst den Kopf. Zum Fenster. Sie bleibt stehen. “Eins verstehe ich nicht. Wie solltest du sterben? Wer könnte dir je etwas zuleide tun?” Grübelnd sieht sie hinaus. Dann dreht sie sich so plötzlich um, dass du erschrickst.',
+    'situation': '“Ich weiß, was ich zu tun habe! Warte hier, mein Sohn, ich werde mich beeilen, so sehr ich nur kann!”',
+    'area': 80,
+    'decisions': [
+        {
+            'text': 'Warten',
+            'followups': [
+                {
+                    'ID': 3011,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}

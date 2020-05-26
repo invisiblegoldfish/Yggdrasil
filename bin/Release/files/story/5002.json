@@ -1,0 +1,18 @@
+{
+    'ID' : 5002,
+    'scenery': 'Du folgst einem kristallklaren Fluss. Die Wälder um dich herum sind kalt und rau, stahlen aber eine unerklärliche Schönheit aus. Die leicht hügelige Landschaft ist schneebedeckt und wirkt so, als hätte sie noch nie eine lebende Seele durchstreift. Du entzündest ein Feuer und isst etwas Fleisch. Dein Feuer spendet kaum Wärme und geht trotz gutem Holz wieder aus. Du fühlst dich trotzdem kräftig und genug gestärkt. Über dir kreist ein gewaltiger Adler. Der Anblick des riesigen Tieres raubt dir den Atem. Nach kurzem Staunen entschließt du dich weiterzuziehen.',
+    'situation': 'Eine Wolke zieht vor die Sonne füllt dich mit einer beklemmenden Stimmung.',
+    'area': 50,
+    'decisions': [
+        {
+            'text': 'Weiterziehen',
+            'followups': [
+                {
+                    'ID': 5030,
+                    'probability': 1,
+                    'conditions': [0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            ]
+        }
+    ]
+}
